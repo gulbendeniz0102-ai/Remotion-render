@@ -1,0 +1,4564 @@
+{
+  "slug": "the-aeneid",
+  "title": "The Aeneid",
+  "author": "Virgil",
+  "genre": "classics",
+  "count": 287,
+  "instructions": "Author one design per beat, SAME order & length. Then: node scripts/plan-vox.js --designs=<thisFileEdited> (same other args).",
+  "designSchema": {
+    "type": "title|statement|list|quote|stat|imagefocus|compare|punchline|checklist|polaroid|chart",
+    "kicker": "2-4 word ALL-CAPS section tag or ''",
+    "emphasis": "1-3 SHORT ALL-CAPS words: pick the most SPECIFIC nouns — names, places, key terms, numbers (never generic verbs/adjectives, never a full sentence)",
+    "items": "list-only: 2-4 SHORT ALL-CAPS items, else []",
+    "image": "null OR {subject:'concrete cinematic visual, no text', style:'cutout'|'card'}",
+    "compare": "compare-only: {left:{label,subject},right:{label,subject}}, else null"
+  },
+  "beats": [
+    {
+      "i": 0,
+      "text": "The greatest poem any government ever paid for ends with its hero butchering a man who is begging on his knees and then it just stops.",
+      "design": {
+        "type": "title",
+        "kicker": "VIRGIL · THE AENEID",
+        "emphasis": [
+          "IT JUST STOPS"
+        ],
+        "items": [],
+        "image": {
+          "subject": "a wounded warrior on his knees in the dust, hands raised in supplication, a sword point at his chest, Bronze Age battlefield at dusk",
+          "style": "card"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 1,
+      "text": "It literally just cuts to black. Yeah, exactly. No triumph, no golden age, no ribbon cutting ceremony for the glorious Roman Empire.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "CUT TO BLACK",
+        "emphasis": [
+          "NO TRIUMPH"
+        ],
+        "items": [],
+        "image": {
+          "subject": "an empty Bronze Age battlefield at dusk, a dropped bronze sword in the dirt, no people",
+          "style": "card"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 2,
+      "text": "Right. Just a sword buried in a chest, a soul fleeing to the underworld and sheer indignation and then silence.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "SILENCE"
+        ],
+        "items": [],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 3,
+      "text": "It is so jarring. I mean, we are taking a deep dive today into Frederick Ahl's translation of Virgil's Aeneid, and we're going to be leaning heavily",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "THE TEXT",
+        "emphasis": [
+          "FREDERICK AHL"
+        ],
+        "items": [],
+        "image": {
+          "subject": "an open scholarly translation of a Latin epic on a dark wooden desk under a reading lamp",
+          "style": "card"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 4,
+      "text": "on the uh the really brilliant analytical insights from Elaine Fantham's introduction in the Oxford World's Classics Yeah.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "FANTHAM"
+        ],
+        "items": [],
+        "image": {
+          "subject": "a hand turning the introduction pages of a scholarly book beside a brass desk lamp",
+          "style": "card"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 5,
+      "text": "Along with Ahl's own incredibly meticulous notes, which are just they're game changers. Totally. And if you are listening to this thinking, \"Oh, the Aeneid, right?",
+      "design": {
+        "type": "quote",
+        "kicker": "",
+        "emphasis": [
+          "THE AENEID"
+        ],
+        "items": [],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 6,
+      "text": "I know what that is. It's like the ultimate piece of state sponsored The big flag waving founding myth of Rome. Exactly.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "THE OFFICIAL STORY",
+        "emphasis": [
+          "FOUNDING MYTH"
+        ],
+        "items": [],
+        "image": {
+          "subject": "a Roman triumphal procession carved in weathered marble relief, standards and laurel",
+          "style": "card"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 7,
+      "text": "The whole toga-wearing patriotic origin story. Well, prepare to have that completely upended because for 2,000 years that is exactly how it's been taught.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "2,000 YEARS"
+        ],
+        "items": [],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 8,
+      "text": "Oh, absolutely. A majestic celebration of Roman values. But when you actually strip away all those historical and you just look at the text, right?",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "ROMAN VALUES"
+        ],
+        "items": [],
+        "image": {
+          "subject": "a marble bust of the emperor Augustus half in shadow, fine dust on the shoulder",
+          "style": "cutout"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 9,
+      "text": "When you look at the mechanics of the text, the clinical deliberate",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "THE MECHANICS"
+        ],
+        "items": [],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 10,
+      "text": "choices Virgil makes on the page, a profoundly subversive picture emerges.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "SUBVERSIVE"
+        ],
+        "items": [],
+        "image": {
+          "subject": "a lamp-lit Roman study at night, an open wax writing tablet and a bronze stylus on a wooden desk",
+          "style": "card"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 11,
+      "text": "It really does. So here is the thesis we are going to prove to you today. Rome commissioned a founding myth. But what they actually got was",
+      "design": {
+        "type": "statement",
+        "kicker": "THE THESIS",
+        "emphasis": [
+          "COMMISSIONED"
+        ],
+        "items": [],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 12,
+      "text": "a casualty report. A casualty report. I love that phrasing because it's so true. We are going to read the Aeneid not as a standard hero's journey",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "THE THESIS",
+        "emphasis": [
+          "CASUALTY REPORT"
+        ],
+        "items": [],
+        "image": {
+          "subject": "a Bronze Age battlefield at first light strewn with the dead, low mist",
+          "style": "card"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 13,
+      "text": "but as the first sustained clinical portrait in Western literature of moral injury. Yeah. A portrait of a man ordered to do things he cannot",
+      "design": {
+        "type": "polaroid",
+        "kicker": "",
+        "emphasis": [
+          "MORAL INJURY"
+        ],
+        "items": [],
+        "image": {
+          "subject": "close portrait of an exhausted bearded Bronze Age warrior in dented bronze armor, hollow eyes",
+          "style": "cutout"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 14,
+      "text": "morally metabolize. Right. And we re-examine this central Roman virtue of the poem which is pietas which translates roughly to like duty",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "PIETAS",
+        "emphasis": [
+          "PIETAS"
+        ],
+        "items": [],
+        "image": {
+          "subject": "a man kneeling at a small household altar holding two clay household gods",
+          "style": "card"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 15,
+      "text": "or devotion or loyalty. Yeah. But we are going to read pie not as a triumphant moral victory but as a desperate coping mechanism.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "COPING MECHANISM"
+        ],
+        "items": [],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 16,
+      "text": "The only thing holding a deeply traumatized man together. Exactly. Virgil builds a hero who has absolutely no desires of",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "TRAUMATIZED"
+        ],
+        "items": [],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 17,
+      "text": "his own allowed to him. He tracks exactly what that hollowing out costs. And",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "NO DESIRES"
+        ],
+        "items": [],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 18,
+      "text": "then he ends the poem at the exact instant that coping mechanism catastrophically",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "IT FAILS"
+        ],
+        "items": [],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 19,
+      "text": "fails. It denies the emperor the very triumph scene the entire epic was supposedly built to deliver. But to wrap your head around how radical this",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "THE EMPEROR"
+        ],
+        "items": [],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 20,
+      "text": "is, we have to start with the raw material Virgil was working with. Right. Who was Aeneas before Virgil got his hands on him? Because if you were an educated Roman citizen,",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "THE RAW MATERIAL",
+        "emphasis": [
+          "BEFORE VIRGIL"
+        ],
+        "items": [],
+        "image": {
+          "subject": "a line of ancient warriors with round shields and raised spears advancing through dust on a windy plain",
+          "style": "card"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 21,
+      "text": "you know, sitting in a classroom, you didn't first meet Aeneas as your glorious founder. No, you met him as a kid studying Greek with your tutor.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "A SCHOOLBOY"
+        ],
+        "items": [],
+        "image": {
+          "subject": "a Roman boy with a wax tablet seated beside an elderly Greek tutor, a scroll open between them",
+          "style": "card"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 22,
+      "text": "You met him reading Homer's Iliad. And in the Iliad, Aeneas is well, he's a secondary character. He's a minor Trojan prince.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "HOMER",
+        "emphasis": [
+          "MINOR PRINCE"
+        ],
+        "items": [],
+        "image": {
+          "subject": "an ancient rolled manuscript lying open on a wooden table beside an oil lamp",
+          "style": "card"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 23,
+      "text": "And crucially, he is entirely lacking the unstoppable Achilles level warrior aura you would expect for the forefather of the Roman war machine.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "ACHILLES"
+        ],
+        "items": [],
+        "image": {
+          "subject": "a towering warrior in full bronze panoply facing a smaller Trojan fighter",
+          "style": "card"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 24,
+      "text": "He's kind of a runner up. I mean, he raised the guy who constantly needs Constantly. Like in book five of the Iliad, he fights the Greek hero Diomedes and gets absolutely crushed",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "ILIAD · BOOK 5",
+        "emphasis": [
+          "DIOMEDES"
+        ],
+        "items": [],
+        "image": {
+          "subject": "a Greek hero hurling a huge boulder at a falling warrior on a battlefield",
+          "style": "card"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 25,
+      "text": "with a rock. A rock. and his mother, the goddess Aphrodite Venus, to the Romans. She has to swoop in to save him.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "HIS MOTHER"
+        ],
+        "items": [],
+        "image": {
+          "subject": "a luminous goddess in pale drapery shielding a wounded warrior in a haze of light",
+          "style": "card"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 26,
+      "text": "And it goes terribly. Diomedes literally chases the goddess, wounds her, and she drops her own son on the battlefield.",
+      "design": {
+        "type": "list",
+        "kicker": "",
+        "emphasis": [],
+        "items": [
+          "A MORTAL WOUNDS HER",
+          "SHE DROPS HER SON",
+          "A GOD HIDES HIM"
+        ],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 27,
+      "text": "She drops him. It's so embarrassing. And then the god Apollo has to wrap Aeneas in a cloud and smuggle him to safety.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "A CLOUD"
+        ],
+        "items": [],
+        "image": {
+          "subject": "a warrior disappearing inside swirling mist in the middle of a battlefield",
+          "style": "card"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 28,
+      "text": "And it happens again later in book 20. He gets goaded into fighting Achilles, And Achilles mocks him, basically calling him a herdsman who ran away the",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "ILIAD · BOOK 20",
+        "emphasis": [
+          "A HERDSMAN"
+        ],
+        "items": [],
+        "image": {
+          "subject": "a Greek champion laughing behind a plumed helmet, spear lowered, facing a retreating man",
+          "style": "card"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 29,
+      "text": "last time they met. Achilles pierces his shield. Aeneas is about to die Again, and the sea god, Poseidon,",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "PIERCED"
+        ],
+        "items": [],
+        "image": {
+          "subject": "a bronze shield punched through by a spear point, close up",
+          "style": "cutout"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 30,
+      "text": "who is actively fighting against the Trojans, has to intervene. He throws a mist over Achilles eyes and physically airlifts Aeneas out of the combat zone.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "POSEIDON"
+        ],
+        "items": [],
+        "image": {
+          "subject": "a sea god lifting a warrior out of the fighting in a rush of mist and seawater",
+          "style": "card"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 31,
+      "text": "Poseidon essentially tells him, \"Look, stop fighting out of your weight class. This is humiliating.\" So, put yourself in the shoes of a Roman propagandist for a second.",
+      "design": {
+        "type": "quote",
+        "kicker": "",
+        "emphasis": [
+          "WEIGHT CLASS"
+        ],
+        "items": [],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 32,
+      "text": "You were trying to legitimize Emperor Augustus, who has just won a brutal decadesl long civil war, right?",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "THE PR PROBLEM",
+        "emphasis": [
+          "AUGUSTUS"
+        ],
+        "items": [],
+        "image": {
+          "subject": "a young Roman emperor in a laurel wreath and purple-bordered toga on marble steps",
+          "style": "cutout"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 33,
+      "text": "Why on earth would you claim this vulnerable second tier, constantly needing rescue character as your founding father?",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "WHY HIM?"
+        ],
+        "items": [],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 34,
+      "text": "I mean, why not claim Hector? Why not claim a victor? It is the ultimate PR problem. But the answer lies in the specific reason Poseidon gives for saving",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "HECTOR"
+        ],
+        "items": [],
+        "image": {
+          "subject": "a Trojan champion in a horsehair-crested helmet standing in a city gateway",
+          "style": "cutout"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 35,
+      "text": "him in the Oh, this is fascinating. Yeah. Poseidon says Aeneas must be saved because the gods have decreed that the royal line of Dardanus must survive.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "DARDANUS"
+        ],
+        "items": [],
+        "image": {
+          "subject": "a family lineage carved into a weathered stone stele",
+          "style": "card"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 36,
+      "text": "Zeus has grown to hate King Priam's branch of the family, but he still favors Aeneas's line. So, he's fated to endure.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "FATED TO ENDURE"
+        ],
+        "items": [],
+        "image": {
+          "subject": "a bearded king of the gods enthroned in golden cloud with an eagle beside him",
+          "style": "card"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 37,
+      "text": "Exactly. He is the ultimate survivor. And there it is. Virgil takes this Homeric baggage. This hero known primarily for retreating and not dying,",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "THE SURVIVOR"
+        ],
+        "items": [],
+        "image": {
+          "subject": "a lone warrior walking away from a burning skyline, seen from behind",
+          "style": "card"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 38,
+      "text": "and he weaponizes it. He strips away the expectation of flashy battlefield prowess and replaces it with relentless, grinding endurance, which is precisely what Augustus",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "ENDURANCE"
+        ],
+        "items": [],
+        "image": {
+          "subject": "a soldier trudging through deep mud under a heavy pack in the rain",
+          "style": "card"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 39,
+      "text": "wanted to project. He didn't want a reckless warlord as a mascot. No, he wanted a beautiful, stoic survivor who endures for the sake of the state.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "A MASCOT"
+        ],
+        "items": [],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 40,
+      "text": "Exactly. But here is where Virgil begins to subvert the assignment. He doesn't just show us the glorious endurance. He clinically documents the psychological cost of it.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "THE COST"
+        ],
+        "items": [],
+        "image": {
+          "subject": "a poet's hand pausing over a wax tablet, the oil lamp burning low",
+          "style": "cutout"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 41,
+      "text": "And that brings us to our first major beat, book one, the opening scenes of the epic, and the introduction of a leader performing a morale",
+      "design": {
+        "type": "statement",
+        "kicker": "BOOK ONE",
+        "emphasis": [
+          "PERFORMING"
+        ],
+        "items": [],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 42,
+      "text": "he simply does not possess. Right, let's drop into the physical reality of this scene. Aeneas and his fleet have just been devastated",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "THE STORM"
+        ],
+        "items": [],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 43,
+      "text": "by a supernaturally induced hurricane off the coast of Carthage. The sensory details Virgil gives here are harrowing.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "CARTHAGE"
+        ],
+        "items": [],
+        "image": {
+          "subject": "a Bronze Age fleet breaking apart in a black storm, mountainous waves",
+          "style": "card"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 44,
+      "text": "They really are. The sky goes black. The waves are described as massive mountains of water. Men are drowning. Ships are splintering.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "DROWNING"
+        ],
+        "items": [],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 45,
+      "text": "The salt and sand are everywhere. And the survivors drag themselves onto an unknown beach, freezing and traumatized. And what are the very first words the founder",
+      "design": {
+        "type": "list",
+        "kicker": "",
+        "emphasis": [],
+        "items": [
+          "SPLINTERED SHIPS",
+          "SALT AND SAND",
+          "FREEZING SURVIVORS"
+        ],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 46,
+      "text": "of the Roman Empire speaks in this grand epic right in the middle of that storm? He wishes he was dead. he literally raises his hands to the sky and cries out, \"Three",
+      "design": {
+        "type": "quote",
+        "kicker": "",
+        "emphasis": [
+          "DEAD"
+        ],
+        "items": [],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 47,
+      "text": "times, four times lucky are those who died by the high walls of Troy.\" The hero's opening sentiment is intense suicidal ideation.",
+      "design": {
+        "type": "quote",
+        "kicker": "",
+        "emphasis": [
+          "SUICIDAL"
+        ],
+        "items": [],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 48,
+      "text": "He wishes he had died with his friends. But once they're on the beach, he has to be the leader, right? He gathers his starving, shivering crew and he delivers",
+      "design": {
+        "type": "list",
+        "kicker": "",
+        "emphasis": [],
+        "items": [
+          "A STARVING CREW",
+          "A SHIVERING BEACH",
+          "HE MUST LEAD"
+        ],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 49,
+      "text": "a speech. He says, \"Crew mates, by now we are hardly strangers to evil and",
+      "design": {
+        "type": "quote",
+        "kicker": "",
+        "emphasis": [
+          "CREW MATES"
+        ],
+        "items": [],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 50,
+      "text": "hardship. We've suffered worse. God will grant us an end to these sufferings also.\"",
+      "design": {
+        "type": "quote",
+        "kicker": "",
+        "emphasis": [
+          "SUFFERINGS"
+        ],
+        "items": [],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 51,
+      "text": "Exactly. Take heart. Dispel your fears. Maybe the day will come when even this will be joy to remember. It is the ultimate locker room halftime speech.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "TAKE HEART"
+        ],
+        "items": [],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 52,
+      "text": "I mean, it's just chilling. But Virgil refuses to let us just admire the leadership. In the very next lines, the narrator steps in and surgically undercuts the",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "THE MASK"
+        ],
+        "items": [],
+        "image": {
+          "subject": "close on a man's face lit by firelight holding a composed expression, the eyes empty",
+          "style": "cutout"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 53,
+      "text": "entire performance. The text reads, \"Sick with his massive cares, he simulates hope on his features, pushing the anguish he feels deep down in his heart out of",
+      "design": {
+        "type": "quote",
+        "kicker": "",
+        "emphasis": [
+          "MASSIVE CARES"
+        ],
+        "items": [],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 54,
+      "text": "vision.\" He simulates hope on his features. That is the defining mechanism of Pietas. It really is. This isn't a man who is divinely inspired or",
+      "design": {
+        "type": "quote",
+        "kicker": "PIETAS",
+        "emphasis": [
+          "SIMULATES HOPE"
+        ],
+        "items": [],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 55,
+      "text": "filled with patriotic fervor. This is a study in profound leadership isolation. Think",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "ISOLATION"
+        ],
+        "items": [],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 56,
+      "text": "about what that means for you, the listener, navigating your own Yeah.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "FOR YOU"
+        ],
+        "items": [],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 57,
+      "text": "Think about a time you had to hide a devastating reality from a child or you know project total confidence to a team when you knew the company was going That is the gap",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "A CHILD"
+        ],
+        "items": [],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 58,
+      "text": "between the mask you were forced to wear and the panic screaming in your head that is moral injury taking root.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "MORAL INJURY"
+        ],
+        "items": [],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 59,
+      "text": "The state the destiny requires a leader to be a symbol of hope. But the human being inside is sick with massive",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "A SYMBOL"
+        ],
+        "items": [],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 60,
+      "text": "cares. And this is just the first crack. The coping mechanism is in place. He is bottling the trauma. But to understand the sheer density of that trauma, we have to look at",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "THE FIRST CRACK"
+        ],
+        "items": [],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 61,
+      "text": "the event that broke him in the first place. We have to look at the ultimate loadbearing image of the entire epic. Which brings us to book two, the fall of",
+      "design": {
+        "type": "statement",
+        "kicker": "BOOK TWO",
+        "emphasis": [
+          "THE FALL OF TROY"
+        ],
+        "items": [],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 62,
+      "text": "The Greeks have breached the walls. The city is a literal inferno. Aeneas wakes up on the roof of his house, sees the flames, and his immediate instinct,",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "INFERNO"
+        ],
+        "items": [],
+        "image": {
+          "subject": "a Bronze Age citadel burning at night, roofs collapsing, sparks pouring over rooftops",
+          "style": "card"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 63,
+      "text": "his old Homeric instinct, is to grab his sword and die in a blaze of But he is stopped by divine visions telling him he has to flee.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "A BLAZE OF GLORY"
+        ],
+        "items": [],
+        "image": {
+          "subject": "a man on a rooftop at night gripping a sword, fire reflected on his bronze armor",
+          "style": "card"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 64,
+      "text": "He has to save his family. Let's visualize this escape because it is arguably the most famous allegorical image in ancient literature.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "SAVE HIS FAMILY"
+        ],
+        "items": [],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 65,
+      "text": "It's in the dead of night. The streets are choked with smoke and corpses. Aeneas drapes a tawny lion's skin over his broad shoulders to pad them and he physically",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "SMOKE AND CORPSES"
+        ],
+        "items": [],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 66,
+      "text": "lifts his elderly father and Anchises onto his back. He reaches down with his right hand and his young son Ascanius grabs it.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "THE LOAD-BEARING IMAGE",
+        "emphasis": [
+          "ON HIS BACK"
+        ],
+        "items": [],
+        "image": {
+          "subject": "a warrior carrying a frail old man on his back and leading a small boy by the hand through burning streets",
+          "style": "card"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 67,
+      "text": "And the text specifically notes that the boy is struggling to keep up because his stride is too short. It's such a tender, heartbreaking detail.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "HIS STRIDE"
+        ],
+        "items": [],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 68,
+      "text": "It is. And trailing behind them in the dark, following their footsteps, is Aeneas's wife, Creusa. Conceptually, this is a masterpiece.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "CREUSA"
+        ],
+        "items": [],
+        "image": {
+          "subject": "a young woman in a pale gown following at a distance through smoke, half lit",
+          "style": "cutout"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 69,
+      "text": "I mean, both of his hands are completely occupied by his duty. Right on his back, weighing him down is the path, his father, his history, the gods of Troy.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "THE PAST"
+        ],
+        "items": [],
+        "image": {
+          "subject": "a frail old man clutching small clay household gods on a younger man's back",
+          "style": "card"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 70,
+      "text": "And in his hand, dragging him forward is the future, his son, the continuation of the bloodline, the promise of Rome. He is literally carrying his history and pulling",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "THE FUTURE"
+        ],
+        "items": [],
+        "image": {
+          "subject": "a small boy's hand gripped tightly in a warrior's hand as they run",
+          "style": "cutout"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 71,
+      "text": "his destiny. But what happens to the present? what happens to the woman he loves, the one part of his adult life he actually chose for himself.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "THE PRESENT"
+        ],
+        "items": [],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 72,
+      "text": "She becomes the first collateral damage of this destiny. As they're sneaking through the shadows, and Anchises shouts from Aeneas's back, \"Hurry, son.\" Shields glowing",
+      "design": {
+        "type": "quote",
+        "kicker": "",
+        "emphasis": [
+          "HURRY, SON"
+        ],
+        "items": [],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 73,
+      "text": "bright and the flash of their bronze, I can actually see them. The panic sets in. Aeneas darts off the main path, sprinting blindly through unknown",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "PANIC"
+        ],
+        "items": [],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 74,
+      "text": "side streets and alleys. He is hyperfocused on keeping a grip on the boy and balancing his father. He finally reaches the rendezvous point, this",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "SIDE STREETS"
+        ],
+        "items": [],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 75,
+      "text": "ancient temple of Ceres outside the city gates. He sets his father down, lets go of his son, and looks around. Creusa is gone.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "SHE IS GONE"
+        ],
+        "items": [],
+        "image": {
+          "subject": "an ancient temple doorway outside a city gate at night, empty, smoke drifting through",
+          "style": "card"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 76,
+      "text": "And his reaction in the text is a chilling testament to what this mission is doing to his brain. He says, \"Lord, was it pitiful fate that made off with my",
+      "design": {
+        "type": "quote",
+        "kicker": "",
+        "emphasis": [
+          "PITIFUL FATE"
+        ],
+        "items": [],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 77,
+      "text": "wife?\" Did Creusa pause for a rest or stray from the path or slump in exhaustion? And then the terrible confession.",
+      "design": {
+        "type": "quote",
+        "kicker": "",
+        "emphasis": [
+          "CREUSA"
+        ],
+        "items": [],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 78,
+      "text": "She was never restored to my eyesight. I didn't know she was gone. For I didn't look back. For I didn't look back. I mean, wow.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "I DIDN'T LOOK BACK"
+        ],
+        "items": [],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 79,
+      "text": "The mission demands such absolute rigid forward momentum that he loses his wife without even noticing her absence.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "WITHOUT NOTICING"
+        ],
+        "items": [],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 80,
+      "text": "The state requires a founder who is stripped of personal attachments that do not serve the founding of Rome. Now, wait, I have to push back here on this whole cold, hollowedout",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "STRIPPED"
+        ],
+        "items": [],
+        "image": {
+          "subject": "a man standing alone in the dark at a meeting point, hands empty at his sides",
+          "style": "cutout"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 81,
+      "text": "founder Okay, let's hear it. Because his immediate reaction to losing her is absolute raving desperation.",
+      "design": {
+        "type": "statement",
+        "kicker": "COUNTERPOINT",
+        "emphasis": [
+          "PUSH BACK"
+        ],
+        "items": [],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 82,
+      "text": "He doesn't just shrug it off. That's true. He doesn't. He leaves his father and",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "HE GOES BACK"
+        ],
+        "items": [],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 83,
+      "text": "son, straps his armor back on, and runs directly back into the burning Greek-infested",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "ARMOR BACK ON"
+        ],
+        "items": [],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 84,
+      "text": "city. He retraces his steps. He screams her name into the empty streets. He even goes back to Priam's palace where the slaughter is thickest.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "THE PALACE"
+        ],
+        "items": [],
+        "image": {
+          "subject": "a man running back into a burning city through empty streets, fire on both sides",
+          "style": "card"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 85,
+      "text": "Exactly. That's not a man blindly following state orders. That is a man shattered by love. It is an act of desperate love. Yes.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "SHATTERED BY LOVE"
+        ],
+        "items": [],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 86,
+      "text": "But we have to look at how Virgil, the architect of this narrative, uses this frantic search mechanically. What do you mean?",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "MECHANICALLY"
+        ],
+        "items": [],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 87,
+      "text": "Well, Ahl's notes What do you mean? Well, Ahl's notes point out something vital here. This search serves a very specific political purpose for the Roman reader.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "POLITICAL PURPOSE"
+        ],
+        "items": [],
+        "image": {
+          "subject": "densely annotated scholarly footnotes on a printed page under a reading lamp",
+          "style": "card"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 88,
+      "text": "First, it completely absolves Aeneas of any moral blame for her death. He didn't abandon her willingly. He tried his best to find her, right?",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "NO BLAME"
+        ],
+        "items": [],
+        "image": {
+          "subject": "a wax tablet with a line being struck through by a bronze stylus",
+          "style": "cutout"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 89,
+      "text": "And second, by having him visibly scour the city and the palace, it directly refutes unsavory alternative myths that were floating around",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "RIVAL MYTHS"
+        ],
+        "items": [],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 90,
+      "text": "antiquity. Oh, myths that claimed Aeneas survived by betraying Troy and allying with the Greeks. Precisely. So, Virgil is using the search as an alibi.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "AN ALIBI"
+        ],
+        "items": [],
+        "image": {
+          "subject": "a Trojan warrior silhouetted between Greek soldiers in torchlight, ambiguous",
+          "style": "card"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 91,
+      "text": "He is clearing Aeneas's rap sheet. Ah, okay. So, it's a narrative device. And then comes the ultimate narrative convenience.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "A DEVICE"
+        ],
+        "items": [],
+        "image": {
+          "subject": "two hands rolling a papyrus scroll tight",
+          "style": "cutout"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 92,
+      "text": "Aeneas is screaming her name and suddenly the ghost of Creusa appears to him. She is described as larger than life.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "HER GHOST"
+        ],
+        "items": [],
+        "image": {
+          "subject": "the translucent figure of a woman larger than life in a smoky street at night",
+          "style": "card"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 93,
+      "text": "And she doesn't just comfort him, she issues him a cosmic hall pass. She tells him to stop crying. She explicitly says her death is the will of the gods.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "A HALL PASS"
+        ],
+        "items": [],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 94,
+      "text": "And then she gives him his marching orders. Then you will reach the Hesperian land where the Lydian Tiber flows. Born for you, there is a blessed state, royal",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "THE TIBER"
+        ],
+        "items": [],
+        "image": {
+          "subject": "a wide slow river through Italian hills at dawn, reeds, no buildings",
+          "style": "card"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 95,
+      "text": "power, and a royal partner in marriage. A royal partner in marriage, a dead wife preapproving a future political It is a staggering piece of narrative",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "A ROYAL MARRIAGE"
+        ],
+        "items": [],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 96,
+      "text": "utility. It authorizes his departure and zeros out his emotional ledger. But look at the tragic physical reality of the scene.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "ZEROED OUT"
+        ],
+        "items": [],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 97,
+      "text": "Aeneas tries to hug her ghost three times, and three times his arms pass right through her like a slight puff of air as a dream flutters off.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "THREE TIMES"
+        ],
+        "items": [],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 98,
+      "text": "He is left completely empty-handed. The state gets its unencumbered founder, but the man is hollowed out.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "HOLLOWED OUT"
+        ],
+        "items": [],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 99,
+      "text": "And if you think the universe is done taking things from him, we move to book",
+      "design": {
+        "type": "statement",
+        "kicker": "BOOK FOUR",
+        "emphasis": [
+          "BOOK FOUR"
+        ],
+        "items": [],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 100,
+      "text": "Ah, yes, book four. He just lost a Trojan woman to the demands of destiny.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "BOOK FOUR",
+        "emphasis": [
+          "DESTINY"
+        ],
+        "items": [],
+        "image": {
+          "subject": "a lone ship's prow cutting dark water at night",
+          "style": "card"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 101,
+      "text": "Now, destiny is going to force him to destroy a Carthaginian woman. We arrive at Carthage and Queen Dido.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "CARTHAGE",
+        "emphasis": [
+          "CARTHAGE"
+        ],
+        "items": [],
+        "image": {
+          "subject": "a half-built Punic city of scaffolded stone walls and purple awnings under a hot sky",
+          "style": "card"
+        },
+        "compare": {
+          "left": {
+            "label": "CARTHAGE",
+            "subject": "a half-built Punic city wall with masons' scaffolding"
+          },
+          "right": {
+            "label": "DIDO",
+            "subject": "a regal Phoenician queen in a Tyrian purple robe with gold-coiled black hair"
+          }
+        }
+      }
+    },
+    {
+      "i": 102,
+      "text": "This is perhaps the most heavily analyzed section of the Aeneid. For good reason. Aeneas, shipwrecked and exhausted, is taken in by Dido,",
+      "design": {
+        "type": "list",
+        "kicker": "",
+        "emphasis": [],
+        "items": [
+          "SHIPWRECKED",
+          "EXHAUSTED",
+          "TAKEN IN BY DIDO"
+        ],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 103,
+      "text": "a powerful, capable leader who fled her own trauma in Phoenicia and is successfully building a massive new city in North Africa.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "DIDO"
+        ],
+        "items": [],
+        "image": {
+          "subject": "a regal Phoenician queen in a Tyrian purple robe with gold-coiled black hair, commanding posture",
+          "style": "cutout"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 104,
+      "text": "They are mirrors of each other and they form a deep, passionate bond. Dido offers to share her city on equal terms.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "MIRRORS"
+        ],
+        "items": [],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 105,
+      "text": "She says, \"The city I am building is yours.\" And for a brief moment, Aeneas finds peace. He stops running. Virgil actually shows him wearing a cloak",
+      "design": {
+        "type": "quote",
+        "kicker": "",
+        "emphasis": [
+          "THE CITY IS YOURS"
+        ],
+        "items": [],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 106,
+      "text": "of Tyrian purple Carthaginian clothes, overseeing the construction of the city walls. He is finally building a home. It's just And Jupiter, the king",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "TYRIAN PURPLE"
+        ],
+        "items": [],
+        "image": {
+          "subject": "a man in a Tyrian purple cloak overseeing masons raising a city wall",
+          "style": "card"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 107,
+      "text": "of the gods, looks down from the heavens and is absolutely He essentially says, \"I didn't save this man twice from the Greeks so he could be a kept man in Africa.\"",
+      "design": {
+        "type": "quote",
+        "kicker": "",
+        "emphasis": [
+          "A KEPT MAN"
+        ],
+        "items": [],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 108,
+      "text": "So Jupiter sends his messenger, Mercury, to forcefully intervene. And the way Mercury intervenes is so manipulative. As Ahl points out, Mercury descends directly",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "MERCURY"
+        ],
+        "items": [],
+        "image": {
+          "subject": "a winged-sandalled messenger god descending in harsh noon light over a building site",
+          "style": "card"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 109,
+      "text": "from the sky in broad daylight. This isn't a vague dream. It is an undeniable divine mandate. And Mercury doesn't try to reason with Aeneas",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "BROAD DAYLIGHT"
+        ],
+        "items": [],
+        "image": {
+          "subject": "the hard-edged shadow of a winged figure falling across sunlit stone",
+          "style": "card"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 110,
+      "text": "about geopolitics. He plays on He plays on the Latin language itself. Yes. He substitutes a pun on terra, meaning land, with terere, meaning",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "A PUN"
+        ],
+        "items": [],
+        "image": {
+          "subject": "a stonecutter's chisel biting into a block of marble",
+          "style": "card"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 111,
+      "text": "wear meaning land, with terere, wear down or waste. He essentially calls Aeneas a deserter. He demands to know why he is wasting his time building someone else's kingdom while actively",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "A DESERTER"
+        ],
+        "items": [],
+        "image": {
+          "subject": "a man turning his face away from an accusing figure of white light",
+          "style": "card"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 112,
+      "text": "stealing his son's inheritance in Italy. And then Mercury leaves him with a deeply misogynistic, terrifying parting shot.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "HIS INHERITANCE"
+        ],
+        "items": [],
+        "image": {
+          "subject": "a small boy standing alone on a foreign shore looking out to sea",
+          "style": "cutout"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 113,
+      "text": "Hang the delays. What you face is a complex, and changeable constant It is a brutal, supernatural wakeup Aeneas's reaction",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "A PARTING SHOT"
+        ],
+        "items": [],
+        "image": {
+          "subject": "a messenger god vanishing upward into glare, leaving a man standing below",
+          "style": "card"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 114,
+      "text": "is sheer terror. The text says his hair stands on end. He knows he has to leave, so he secretly orders his men to prep the fleet. But Dido finds out.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "SHEER TERROR"
+        ],
+        "items": [],
+        "image": {
+          "subject": "a man's hand gripping a ship's rail, knuckles white, crews rigging behind him",
+          "style": "card"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 115,
+      "text": "And this confrontation, this explosive argument between them is where the moral injury of Aeneas becomes agonizing to witness.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "THE ARGUMENT"
+        ],
+        "items": [],
+        "image": {
+          "subject": "a queen and an armored man facing each other across a torchlit hall, the court gone",
+          "style": "card"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 116,
+      "text": "Dido completely eviscerates him. She calls him a traitor, a liar. She says he is leaving her to be destroyed by the host tribes surrounding Carthage.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "TRAITOR"
+        ],
+        "items": [],
+        "image": {
+          "subject": "a furious queen in purple confronting a silent armored man",
+          "style": "card"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 117,
+      "text": "And how does Aeneas defend himself? He falls back on the coping mechanism. He suppresses everything. He delivers a cold legalistic defense claiming they",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "HE SUPPRESSES"
+        ],
+        "items": [],
+        "image": {
+          "subject": "a man standing rigid with his jaw set and eyes down in firelight",
+          "style": "cutout"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 118,
+      "text": "never formally entered a marriage pact, which might be technically true, but emotionally it is monstrous.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "MONSTROUS"
+        ],
+        "items": [],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 119,
+      "text": "And then backed into a corner, he delivers the line that defines his tragedy. I do not chase Italy of my own free will.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "FREE WILL"
+        ],
+        "items": [],
+        "image": {
+          "subject": "a man backed against a stone column in torchlight, shoulders locked",
+          "style": "card"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 120,
+      "text": "I do not chase Italy of my own free will. Italiam non sponte sequor. It is not a justification. It is a confession of non-consent.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "NON-CONSENT",
+        "emphasis": [
+          "NON-CONSENT"
+        ],
+        "items": [],
+        "image": {
+          "subject": "empty bronze manacles lying open on stone",
+          "style": "cutout"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 121,
+      "text": "He is telling her, I am a hostage. I am a meat puppet for the gods. He is entirely stripped of agency. And what is so subversive about Virgil's writing here is that he hands",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "A HOSTAGE"
+        ],
+        "items": [],
+        "image": {
+          "subject": "a warrior seen from behind being pushed forward by unseen light",
+          "style": "card"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 122,
+      "text": "the moral high ground, the superior rhetoric, and the genuine palpable grief entirely to the foreigner, the enemy.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "HIGH GROUND"
+        ],
+        "items": [],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 123,
+      "text": "Exactly. Aeneas's stoic rejection isn't framed as a triumphant act of patriotism. It is a miserable robotic failure forced upon him.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "ROBOTIC"
+        ],
+        "items": [],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 124,
+      "text": "But the tragedy doesn't stop at heartbreak. Dido doesn't just cry. She prepares to kill herself. She builds a prepares to kill herself.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "SHE PREPARES"
+        ],
+        "items": [],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 125,
+      "text": "She builds a massive pyre, mounts it, and as she prepares to fall on Aeneas's own sword, she delivers a curse that shapes the entire future of the Mediterranean.",
+      "design": {
+        "type": "list",
+        "kicker": "",
+        "emphasis": [],
+        "items": [
+          "A MASSIVE PYRE",
+          "HIS OWN SWORD",
+          "A CURSE"
+        ],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 126,
+      "text": "She prays for eternal generational warfare. No love must ever exist between our two peoples.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "NO LOVE"
+        ],
+        "items": [],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 127,
+      "text": "No treaties. Rise from my bones, my avenger, and there will be an avenger. So, you can hound these Dardan settlers with hot fire and cold",
+      "design": {
+        "type": "list",
+        "kicker": "",
+        "emphasis": [],
+        "items": [
+          "NO TREATIES",
+          "RISE FROM MY BONES",
+          "FIRE AND STEEL"
+        ],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 128,
+      "text": "steel now or someday in the future. Phantom's introduction highlights a brilliant terrifying linguistic layer here.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "A LINGUISTIC LAYER"
+        ],
+        "items": [],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 129,
+      "text": "Virgil repeatedly refers to Dido as Phoenissa, repeatedly refers to Dido as Phoenissa, which means a Phoenician woman, but to a Roman ear, it strongly evokes the the mythical bird that burns itself on",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "PHOENISSA"
+        ],
+        "items": [],
+        "image": {
+          "subject": "a burning pyre at night on a city terrace, a queen's figure on top",
+          "style": "card"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 130,
+      "text": "a the mythical bird that burns itself on a pyre only for a new avenger to rise from its ashes. Dido is literally burning on a pyre. And every single Roman reader reading that line knew exactly who the",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "FROM THE ASHES"
+        ],
+        "items": [],
+        "image": {
+          "subject": "a great bird rising out of a column of fire and smoke",
+          "style": "card"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 131,
+      "text": "avenger rising from her ashes would be. Hannibal, the from her ashes would be. Hannibal, the Carthaginian military genius who centuries later would bring war elephants over the Alps, slaughter hundreds",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "HANNIBAL"
+        ],
+        "items": [],
+        "image": {
+          "subject": "a general in a scarlet cloak leading elephants through a snowbound alpine pass",
+          "style": "card"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 132,
+      "text": "of thousands of Romans, and bring the Roman Republic to the absolute brink of total extinction in the Second Punic War. So, if you are a Roman reading",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "THE PUNIC WARS"
+        ],
+        "items": [],
+        "image": {
+          "subject": "Roman dead heaped on an Italian field after a battle, standards broken",
+          "style": "card"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 133,
+      "text": "this, the implication is staggering. Your origin story created your apocalypse.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "YOUR APOCALYPSE"
+        ],
+        "items": [],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 134,
+      "text": "Aeneas's destiny, his forced abandonment of this woman, directly spawned Rome's greatest nightmare. The state demanded he suppress his humanity",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "ROME'S NIGHTMARE"
+        ],
+        "items": [],
+        "image": {
+          "subject": "the long shadow of an elephant falling across an empty Roman road at dusk",
+          "style": "card"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 135,
+      "text": "and in doing so the state sowed the seeds of its own near destruction. The coping mechanism creates the trauma.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "THE SEEDS"
+        ],
+        "items": [],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 136,
+      "text": "And if Aeneas has absolutely no agency in the present, if every choice he makes just leaves a trail of corpses, he has to seek validation elsewhere.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "A TRAIL OF CORPSES"
+        ],
+        "items": [],
+        "image": {
+          "subject": "a line of bodies along a shoreline at low tide, one figure walking past",
+          "style": "card"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 137,
+      "text": "He has to know why he is suffering. This desperate need for meaning drives him to the most extreme journey of the epic. The descent into the underworld in book six to find",
+      "design": {
+        "type": "statement",
+        "kicker": "BOOK SIX",
+        "emphasis": [
+          "WHY HE SUFFERS"
+        ],
+        "items": [],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 138,
+      "text": "his dead father and He literally goes to hell for an explanation. He secures the golden bow, explanation. He secures the golden bough, follows Sibyl, and navigates the sensory horrors of the dead, the river",
+      "design": {
+        "type": "list",
+        "kicker": "",
+        "emphasis": [],
+        "items": [
+          "THE GOLDEN BOUGH",
+          "THE SIBYL",
+          "THE RIVER STYX"
+        ],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 139,
+      "text": "sensory horrors of the dead, river Styx, the screaming phantoms, the fields of mourning, where he actually sees Dido's ghost, who refuses to even look at him.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "DIDO'S GHOST"
+        ],
+        "items": [],
+        "image": {
+          "subject": "a woman's shade turning her face away in a grey misty field of the dead",
+          "style": "card"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 140,
+      "text": "He finally reaches the Elysian fields. Virgil's description of Elysium is incredibly atmospheric. It has its own son, its own stars.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "ELYSIUM",
+        "emphasis": [
+          "ELYSIUM"
+        ],
+        "items": [],
+        "image": {
+          "subject": "an expansive misty green plain with its own pale sun, distant figures wrestling",
+          "style": "card"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 141,
+      "text": "It's an expansive, misty prairie where heroes exercise, wrestle, and poets sing. And Aeneas finds his father deep in a green valley",
+      "design": {
+        "type": "list",
+        "kicker": "",
+        "emphasis": [],
+        "items": [
+          "HEROES WRESTLING",
+          "POETS SINGING",
+          "ITS OWN STARS"
+        ],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 142,
+      "text": "observing a river, the river Lethe, the river of And",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "THE LETHE"
+        ],
+        "items": [],
+        "image": {
+          "subject": "a slow river in a green valley, an old man standing at the water's edge",
+          "style": "card"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 143,
+      "text": "Anchises uses this setting to explain a massive complex pantheistic",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "THEOLOGY"
+        ],
+        "items": [],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 144,
+      "text": "theology. He explains that souls are purified by wind, water, or fire over a thousand years until the taint of their past lives is burned away.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "A THOUSAND YEARS"
+        ],
+        "items": [],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 145,
+      "text": "Then they drink from the Lethe, lose all memory, and are ready to be reincarnated into new bodies. But Anchises isn't just giving a lecture on metaphysics.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "FORGETFULNESS"
+        ],
+        "items": [],
+        "image": {
+          "subject": "shades drinking from a dim river, their faces blank",
+          "style": "card"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 146,
+      "text": "He points to the souls waiting to be reborn and says, \"Look at them because these specific souls are the future leaders of Rome.\" It is a massive hallucinatory",
+      "design": {
+        "type": "quote",
+        "kicker": "",
+        "emphasis": [
+          "FUTURE LEADERS"
+        ],
+        "items": [],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 147,
+      "text": "parade of history. And Anchises points out Romulus, the kings of Alba Longa, the great generals of the republic. And finally, the shining climax of",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "ROMULUS"
+        ],
+        "items": [],
+        "image": {
+          "subject": "a hallucinatory parade of Roman figures receding into mist",
+          "style": "card"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 148,
+      "text": "the vision, Emperor Augustus himself, who Anchises says will expand the empire beyond the stars and bring about a golden age.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "AUGUSTUS"
+        ],
+        "items": [],
+        "image": {
+          "subject": "a young emperor lit from above at the far end of a parade of shades",
+          "style": "cutout"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 149,
+      "text": "It is the ultimate ideological mission statement. And Anchises delivers the thesis of Roman imperialism directly to Remember Roman, to",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "MISSION STATEMENT"
+        ],
+        "items": [],
+        "image": {
+          "subject": "an old man pointing out into a vast misty plain, his son beside him",
+          "style": "card"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 150,
+      "text": "rule the nations with your power, to spare the conquered and to crush the proud. Spare the conquered and crush the proud.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "CRUSH THE PROUD"
+        ],
+        "items": [],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 151,
+      "text": "For a Roman reader, this is the Super Bowl victory speech. This is the grand justification for everything. The dead wife, the abandoned queen, the drowned",
+      "design": {
+        "type": "list",
+        "kicker": "",
+        "emphasis": [],
+        "items": [
+          "THE DEAD WIFE",
+          "THE ABANDONED QUEEN",
+          "THE DROWNED SAILORS"
+        ],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 152,
+      "text": "sailors. It is all vindicated by this glorious parade of dominance culminating in the current emperor. Aeneas finally gets his meaning.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "VINDICATED"
+        ],
+        "items": [],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 153,
+      "text": "It is the absolute pinnacle of state propaganda. But then we reach the",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "STATE PROPAGANDA"
+        ],
+        "items": [],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 154,
+      "text": "end of book six and Virgil executes the most baffling, debated, mindbending",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "THE TWIST",
+        "emphasis": [
+          "THE TWIST"
+        ],
+        "items": [],
+        "image": {
+          "subject": "two ancient doorways side by side in a dark rock face, one pale, one dark",
+          "style": "card"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 155,
+      "text": "twist in ancient the twin gates of sleep. And Anchises finishes the tour and it's time to send Aeneas back to the surface. Virgil explicitly stops the narrative to",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "THE GATES OF SLEEP",
+        "emphasis": [
+          "TWIN GATES"
+        ],
+        "items": [],
+        "image": {
+          "subject": "a gate of polished horn and a gate of carved ivory standing side by side",
+          "style": "card"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 156,
+      "text": "describe the exits. He writes, \"Sleep opens twin double He writes, \"Sleep opens twin double portals. The first made of horns grants an easy exit.\" It said for real ghosts.",
+      "design": {
+        "type": "quote",
+        "kicker": "",
+        "emphasis": [
+          "THE GATE OF HORN"
+        ],
+        "items": [],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 157,
+      "text": "On the second, one sees a rich luster crafted with the dentals of elephant crafted with the dentine of elephant tusk and fantastic perfection. Dead souls though send deceptive",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "IVORY"
+        ],
+        "items": [],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 158,
+      "text": "dreams up above to the heavens. The gate of horn for true visions. The gate of ivory for false dreams. And what does Anchises do?",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "FALSE DREAMS"
+        ],
+        "items": [],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 159,
+      "text": "The text says sends them off on their way through the ivory portal. The gate of false dreams. Let's pause and wrestle with this because the implications",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "THE IVORY GATE"
+        ],
+        "items": [],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 160,
+      "text": "are seismic. I have to play devil's advocate here because it makes zero sense on a surface level. Go for it. Virgil is the court poet of Augustus.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "COURT POET"
+        ],
+        "items": [],
+        "image": {
+          "subject": "a poet standing small in a marble hall before an empty imperial throne",
+          "style": "card"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 161,
+      "text": "He just spent hundreds of lines laying out the divine, inevitable, glorious destiny of the Roman Empire, culminating in a literal glowing tribute",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "GLORIOUS DESTINY"
+        ],
+        "items": [],
+        "image": {
+          "subject": "gilded marble architecture rising in bright sun with the scaffolding still up",
+          "style": "card"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 162,
+      "text": "to his boss. And then in the very next breath, he explicitly tells the reader that Aeneas leaves this vision through the door reserved for",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "THE NEXT BREATH"
+        ],
+        "items": [],
+        "image": {
+          "subject": "an ivory-carved door standing ajar in darkness",
+          "style": "cutout"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 163,
+      "text": "deceptive false dreams. Why on earth would a state-f funed on earth would a state-funded propagandist actively blatantly sabotage his own prophecy?",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "SABOTAGE"
+        ],
+        "items": [],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 164,
+      "text": "Classicists have argued about this for centuries. There is a deeply political reading which suggests Virgil is secretly a Like he's dropping a breadcrumb",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "CLASSICISTS"
+        ],
+        "items": [],
+        "image": {
+          "subject": "a stack of annotated scholarly books and loose pages on a desk",
+          "style": "card"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 165,
+      "text": "for the careful reader, right? Hinting that the promise of a peaceful, perfect Roman Empire under Augustus is an illusion.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "AN ILLUSION"
+        ],
+        "items": [],
+        "image": {
+          "subject": "a gleaming city reflected upside down in still water",
+          "style": "card"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 166,
+      "text": "That it's a lie built on blood. But that is an incredibly dangerous game to play. You don't bite the hand that feeds you, especially when that hand commands legions and has",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "DANGEROUS"
+        ],
+        "items": [],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 167,
+      "text": "a track record of executing dissenters. Which is why the psychological reading is perhaps even more devastating. Okay, tell me about that.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "THE PSYCHOLOGY"
+        ],
+        "items": [],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 168,
+      "text": "Think about the concept of moral injury we've been tracking. Think about Aeneas's state of mind. He is steeped in trauma.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "STEEPED IN TRAUMA"
+        ],
+        "items": [],
+        "image": {
+          "subject": "a man sitting alone on the edge of a cot in lamplight, his armor on the floor",
+          "style": "cutout"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 169,
+      "text": "He has been told he is merely a vessel for a future he will never live to see. So perhaps Virgil is saying that to Aeneas, this glorious political future",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "A VESSEL"
+        ],
+        "items": [],
+        "image": {
+          "subject": "an empty bronze vessel standing in a shaft of light",
+          "style": "cutout"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 170,
+      "text": "feels as insubstantial, alien, and unreachable as a false dream. Exactly. The vision doesn't heal him.",
+      "design": {
+        "type": "list",
+        "kicker": "",
+        "emphasis": [],
+        "items": [
+          "INSUBSTANTIAL",
+          "ALIEN",
+          "UNREACHABLE"
+        ],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 171,
+      "text": "The promise that a guy named Augustus will rule a peaceful empire 500 years from now doesn't bring Creusa back. And it doesn't wash Dido's blood off his The",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "NOT CREUSA"
+        ],
+        "items": [],
+        "image": {
+          "subject": "a man's hands closing on empty air in dim light",
+          "style": "cutout"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 172,
+      "text": "vision is true for Rome, but it is a false dream for the man who has to suffer to build it. It fundamentally fractures the idea of the epic",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "A FALSE DREAM"
+        ],
+        "items": [],
+        "image": {
+          "subject": "a bright city seen far off through a haze that will not resolve",
+          "style": "card"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 173,
+      "text": "as pure patriotism. The meaning he went to the underworld to find is ultimately inaccessible to him. And if the spiritual realm can't give him a meaning",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "INACCESSIBLE"
+        ],
+        "items": [],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 174,
+      "text": "he can hold on to, we have to look at what he is forced to physically carry in the material world. Which brings us to book eight and the image we open this",
+      "design": {
+        "type": "statement",
+        "kicker": "BOOK EIGHT",
+        "emphasis": [
+          "WHAT HE CARRIES"
+        ],
+        "items": [],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 175,
+      "text": "deep dive with. Aeneas has arrived in Italy. War with the local tribes is inevitable. His mother Venus seduces the smith god",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "BOOK EIGHT",
+        "emphasis": [
+          "ITALY"
+        ],
+        "items": [],
+        "image": {
+          "subject": "a Bronze Age landing on an Italian river bank, ships drawn up, scrubby hills",
+          "style": "card"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 176,
+      "text": "Vulcan into forging divine armor for Aeneas. This is the moment where the psychological burden of history becomes literal physical weight.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "VULCAN"
+        ],
+        "items": [],
+        "image": {
+          "subject": "a soot-blackened smith god hammering at a volcanic forge, sparks in the dark",
+          "style": "card"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 177,
+      "text": "Vulcan crafts a magnificent shield. And just like Anchises showed Aeneas a vision of the future, Vulcan physically embosses the shield with scenes of future Roman",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "THE SHIELD"
+        ],
+        "items": [],
+        "image": {
+          "subject": "a vast bronze shield covered in embossed relief scenes, lit from one side",
+          "style": "cutout"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 178,
+      "text": "history. But the curation of these scenes is incredibly revealing. More than half of the shield's description is dedicated to one specific hyper recent event, the",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "THE CURATION"
+        ],
+        "items": [],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 179,
+      "text": "Context is crucial here. Act was the Context is crucial here. Actium was the naval battle where Augustus definitively defeated Mark Antony and Cleopatra. It ended the civil wars and cemented Augustus",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "ACTIUM",
+        "emphasis": [
+          "ACTIUM"
+        ],
+        "items": [],
+        "image": {
+          "subject": "war galleys locked in a naval battle rendered as relief work on beaten bronze",
+          "style": "card"
+        },
+        "compare": {
+          "left": {
+            "label": "MARK ANTONY",
+            "subject": "a Roman general in a muscled bronze cuirass, face turned away"
+          },
+          "right": {
+            "label": "CLEOPATRA",
+            "subject": "an Egyptian queen in dark linen and heavy gold shaking a bronze sistrum"
+          }
+        }
+      }
+    },
+    {
+      "i": 180,
+      "text": "as the sole autocrat of Rome. It was the genesis moment of the new And the way Vulcan carves it is pure polarized us versus",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "THE NEW REGIME"
+        ],
+        "items": [],
+        "image": {
+          "subject": "a bronze relief of a triumphant figure standing above rows of ships",
+          "style": "card"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 181,
+      "text": "them propaganda. Oh, totally. On one side of the metal, you have Augustus, his head radiating twin flames, backed by the Senate, the people, the household",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "TWIN FLAMES"
+        ],
+        "items": [],
+        "image": {
+          "subject": "a bronze relief portrait with twin flames rising from the brow, ranked senators behind",
+          "style": "card"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 182,
+      "text": "spirits, and the rational Olympian gods like Apollo and And on the opposing side, you have the forces of the East. Virgil doesn't even dignify Mark Antony",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "THE EAST"
+        ],
+        "items": [],
+        "image": {
+          "subject": "a bronze relief of ancient ships with tall standards ranked in a line",
+          "style": "card"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 183,
+      "text": "by naming him. He focuses entirely on the abominable Egyptian wife, Cleopatra, shaking her native rattle, the sistrum, and backing",
+      "design": {
+        "type": "list",
+        "kicker": "",
+        "emphasis": [],
+        "items": [
+          "NO NAME FOR ANTONY",
+          "AN EGYPTIAN WIFE",
+          "A NATIVE RATTLE"
+        ],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 184,
+      "text": "her are not normal gods, but every conceivable monstrous god, even barking Anubis. It is framed as a cosmic clash of civilizations.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "BARKING ANUBIS"
+        ],
+        "items": [],
+        "image": {
+          "subject": "a bronze relief of a jackal-headed god among monstrous deities on a ship's deck",
+          "style": "card"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 185,
+      "text": "The orderly, rational west versus the chaotic, monstrous east. Apollo shoots his bow and the eastern fleet scatters in terror.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "WEST VS EAST"
+        ],
+        "items": [],
+        "image": null,
+        "compare": {
+          "left": {
+            "label": "WEST",
+            "subject": "an Olympian archer god drawing a golden bow"
+          },
+          "right": {
+            "label": "EAST",
+            "subject": "an Egyptian deity with a jackal head carved in bronze relief, holding a tall standard"
+          }
+        }
+      }
+    },
+    {
+      "i": 186,
+      "text": "It is a stunning piece of political art. But to understand the commentary Virgil is making, we have to compare it to its literary ancestor. Every educated Roman would immediately compare this to book",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "THE ANCESTOR"
+        ],
+        "items": [],
+        "image": {
+          "subject": "two great bronze shields displayed side by side in raking light",
+          "style": "card"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 187,
+      "text": "18 of the Iliad. The shield of Achilles. Exactly. When the god Hephaestus makes a shield for Achilles, what does he put on it? He puts the entire cosmos, the earth, the",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "ILIAD · BOOK 18",
+        "emphasis": [
+          "HEPHAESTUS"
+        ],
+        "items": [],
+        "image": {
+          "subject": "a smith god hammering a shield engraved with stars, fields and dancers",
+          "style": "card"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 188,
+      "text": "sky, the sun, the moon. He crafts a city at peace with weddings dancing and legal disputes being settled calmly.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "A CITY AT PEACE"
+        ],
+        "items": [],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 189,
+      "text": "He crafts a city at war with ambushes and sieges. He shows plowing, harvesting, vineyards, lions attacking cattle, sheep in",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "A CITY AT WAR"
+        ],
+        "items": [],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 190,
+      "text": "a valley. Achilles shield is a microcosm of total human existence. The joy, the labor, the sorrow, the peace, the violence.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "EVERYTHING HUMAN"
+        ],
+        "items": [],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 191,
+      "text": "It is And what is on Aeneas's shield? Only Roman political dominance. The violent victory of one specific dynasty crushing its enemies.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "ONE DYNASTY"
+        ],
+        "items": [],
+        "image": {
+          "subject": "a weathered bronze relief panel showing one large standing figure above a row of smaller bowed figures",
+          "style": "card"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 192,
+      "text": "It doesn't show the breadth of human life. It shows the boot of the Roman",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "THE BOOT"
+        ],
+        "items": [],
+        "image": {
+          "subject": "a bronze relief of a military boot planted on a fallen man's back",
+          "style": "card"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 193,
+      "text": "state. And here's the devastating kicker. After this long, glorious description of the engravings,",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "THE KICKER"
+        ],
+        "items": [],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 194,
+      "text": "Virgil describes Aeneas's reaction to receiving the shield. Does he feel a surge of patriotic fire? Does he recognize his glorious descendants?",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "HIS REACTION"
+        ],
+        "items": [],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 195,
+      "text": "No. Virgil explicitly writes that Aeneas marvels at the images. He is aed by the marvels at the images. He is awed by beauty of the craftsmanship, but he is ignorant of the events.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "IGNORANT"
+        ],
+        "items": [],
+        "image": {
+          "subject": "a warrior turning a huge embossed shield in his hands, frowning, uncomprehending",
+          "style": "card"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 196,
+      "text": "He doesn't know what Actium is. He doesn't know who Augustus is. He has no idea what he is",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "HE DOESN'T KNOW"
+        ],
+        "items": [],
+        "image": {
+          "subject": "close on a man's eyes reflecting firelight, uncomprehending",
+          "style": "cutout"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 197,
+      "text": "looking at. He lifts the massive bronze shield onto his shoulder, rejoicing in the images, ignorant of the",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "ON HIS SHOULDER"
+        ],
+        "items": [],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 198,
+      "text": "It is chilling. He is a man carrying a history he is not permitted to understand. He is quite literally a beast of burden for the Roman",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "BEAST OF BURDEN"
+        ],
+        "items": [],
+        "image": {
+          "subject": "a man shouldering an enormous bronze shield, knees bending under the weight",
+          "style": "card"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 199,
+      "text": "state. The state requires his labor, his suffering, and his blood. But it does not require his comprehension.",
+      "design": {
+        "type": "list",
+        "kicker": "",
+        "emphasis": [],
+        "items": [
+          "HIS LABOR",
+          "HIS SUFFERING",
+          "HIS BLOOD"
+        ],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 200,
+      "text": "That ignorance, that role as a blind tool of destiny, leads us directly into the horrors of the war in Italy, spanning books 9 through 11.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "BOOKS 9-11",
+        "emphasis": [
+          "THE WAR IN ITALY"
+        ],
+        "items": [],
+        "image": {
+          "subject": "a trench-scarred river plain with earthworks and siege lines under dust",
+          "style": "card"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 201,
+      "text": "Because this isn't a glorious conquest. It is a slaughter house. And this brings us to our next beat. The young dead. If the founding of Rome requires blood,",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "THE YOUNG DEAD",
+        "emphasis": [
+          "A SLAUGHTERHOUSE"
+        ],
+        "items": [],
+        "image": {
+          "subject": "a muddy ditch strewn with young dead soldiers at dawn",
+          "style": "card"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 202,
+      "text": "Virgil makes it painfully clear that it demands the blood of the young. He saves his most tender, heartbreaking writing for the boys that this geopolitical machine consumes.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "THE BLOOD OF THE YOUNG"
+        ],
+        "items": [],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 203,
+      "text": "You have Nisus and Euryalus, a pair of young Trojan lovers who try to execute a night raid. They get lost in the dark, slipping in the blood of sleeping men they've murdered,",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "NISUS & EURYALUS"
+        ],
+        "items": [],
+        "image": {
+          "subject": "two young soldiers moving through a sleeping camp at night, blood on their hands",
+          "style": "card"
+        },
+        "compare": {
+          "left": {
+            "label": "NISUS",
+            "subject": "a lean young Trojan soldier with dark stubble in light leather armor"
+          },
+          "right": {
+            "label": "EURYALUS",
+            "subject": "a beardless boy soldier with fair curls in an oversized bronze helmet"
+          }
+        }
+      }
+    },
+    {
+      "i": 204,
+      "text": "and are brutally killed. You have Lausus, a young Italian prince who dies trying to",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "LAUSUS"
+        ],
+        "items": [],
+        "image": {
+          "subject": "a young prince stepping in front of an older armored man, a small shield raised",
+          "style": "card"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 205,
+      "text": "save his monstrous tyrant father. But the fulcrum of the tragedy is Pallas. Pallas is the young son of King Evander, a local Greek king who allies with",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "PALLAS"
+        ],
+        "items": [],
+        "image": {
+          "subject": "a beardless boy soldier in ill-fitting bronze armor wearing an oversized gold-studded sword belt",
+          "style": "cutout"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 206,
+      "text": "Aeneas. Evander entrusts his beloved inexperienced boy to Aeneas to learn the art of war.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "ENTRUSTED"
+        ],
+        "items": [],
+        "image": {
+          "subject": "an elderly king handing his young son over to an armored warrior outside thatched huts",
+          "style": "card"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 207,
+      "text": "Aeneas is sworn to be his mentor, his protector. But the war is chaos. Pallas is isolated But the war is chaos. Pallas isolated and killed in battle by Turnus, the fierce",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "ISOLATED"
+        ],
+        "items": [],
+        "image": {
+          "subject": "a boy soldier cut off alone in a chaotic battle line",
+          "style": "card"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 208,
+      "text": "champion of the Italians. And Turnus fierce champion of the Italians. And Turnus doesn't just kill boy. He puts his foot on the corpse, rips off Pallas's foot on the corpse, rips off Pallas's massive gold studded sword belt, and straps it",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "THE SWORD BELT"
+        ],
+        "items": [],
+        "image": {
+          "subject": "a warrior's foot on a fallen boy's chest, stripping away a wide gold-studded belt",
+          "style": "card"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 209,
+      "text": "on his own body as a trophy. And when news of Pallas's death reaches Aeneas, the coping mechanism snaps. The pietas, the stoic endurance, the suppression",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "THE SNAP"
+        ],
+        "items": [],
+        "image": {
+          "subject": "a man receiving news on a battlefield, his face breaking, fists closing",
+          "style": "cutout"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 210,
+      "text": "of self that has held him together since book one completely He loses his mind. Aeneas goes on a rampage that is indistinguishable from the monstrous",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "HE LOSES HIS MIND"
+        ],
+        "items": [],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 211,
+      "text": "rage of the barbarians he's supposed to be civilizing. He becomes a slaughtering machine. He kills priests who are actively begging for mercy.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "BEGGING FOR MERCY"
+        ],
+        "items": [],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 212,
+      "text": "He mocks the corpses of the men he kills. And then he commits an act that violates every standard of Roman military and moral code.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "HE MOCKS THEM"
+        ],
+        "items": [],
+        "image": {
+          "subject": "an armored man standing over heaped corpses in smoke, sword loose in his hand",
+          "style": "card"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 213,
+      "text": "Virgil reports this plainly without attempting to soften or justify Aeneas captures eight young Italian men alive on the battlefield.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "EIGHT YOUNG MEN"
+        ],
+        "items": [],
+        "image": {
+          "subject": "eight bound young prisoners kneeling in a row in the dirt",
+          "style": "card"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 214,
+      "text": "Not to ransom them, not to enslave them. He captures them to slaughter them as human sacrifices on Pallas's funeral pyre. Human sacrifice.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "HUMAN SACRIFICE",
+        "emphasis": [
+          "HUMAN SACRIFICE"
+        ],
+        "items": [],
+        "image": {
+          "subject": "a funeral pyre built high at dusk with bound prisoners standing beside it",
+          "style": "card"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 215,
+      "text": "Human sacrifice. Now wait, is this just the grim reality of",
+      "design": {
+        "type": "statement",
+        "kicker": "COUNTERPOINT",
+        "emphasis": [
+          "WAIT"
+        ],
+        "items": [],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 216,
+      "text": "ancient warfare? We know Achilles sacrificed Trojan youths on the pyre of Patroclus in",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "PATROCLUS"
+        ],
+        "items": [],
+        "image": {
+          "subject": "a Greek funeral pyre burning at night with armored figures watching",
+          "style": "card"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 217,
+      "text": "the Iliad. Isn't Aeneas just echoing Achilles here? Is it fair to call it moral injury or is it just standard epic hero behavior?",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "JUST ECHOING?"
+        ],
+        "items": [],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 218,
+      "text": "It is deliberately echoing Achilles, but the context changes everything. Achilles was always driven by raw untamed passion.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "RAW PASSION"
+        ],
+        "items": [],
+        "image": {
+          "subject": "a Greek hero roaring on a battlefield with his spear raised",
+          "style": "cutout"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 219,
+      "text": "He existed before the laws of right? Aeneas is supposed to be the paragon of Pietas.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "THE PARAGON"
+        ],
+        "items": [],
+        "image": {
+          "subject": "a Roman sacrificing at an altar with his head ritually covered, orderly",
+          "style": "card"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 220,
+      "text": "He is the rational founder of the ordered civilized Roman world, the world that prides itself on the rule of law. By having Aeneas revert to archaic, barbaric",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "THE RULE OF LAW"
+        ],
+        "items": [],
+        "image": {
+          "subject": "Roman officials in togas conducting a formal legal ritual on marble steps",
+          "style": "card"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 221,
+      "text": "human sacrifice. Virgil is showing that the trauma of the Imperial mission hasn't elevated the hero, it has degraded him into a monster.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "DEGRADED"
+        ],
+        "items": [],
+        "image": {
+          "subject": "a blood-spattered armored man staring at his own hands",
+          "style": "cutout"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 222,
+      "text": "The mission destroys the morality of the man executing it. And the tragic irony is that the people he is slaughtering these Italians are the very people his descendants are supposed to become.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "HIS DESCENDANTS"
+        ],
+        "items": [],
+        "image": {
+          "subject": "Italian villagers watching a Trojan column pass, faces guarded",
+          "style": "card"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 223,
+      "text": "Which brings us to book 12. and the cosmic settlement that actually ends the war. Because the war doesn't end with a human treaty, it ends with a backroom deal between",
+      "design": {
+        "type": "statement",
+        "kicker": "BOOK TWELVE",
+        "emphasis": [
+          "A BACKROOM DEAL"
+        ],
+        "items": [],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 224,
+      "text": "the gods. The humans are bleeding out in the dirt and up in a golden cloud, Jupiter and Juno finally have a sit down to Jupiter tells his wife Juno",
+      "design": {
+        "type": "list",
+        "kicker": "",
+        "emphasis": [],
+        "items": [
+          "MEN BLEEDING IN THE DIRT",
+          "GODS IN A GOLDEN CLOUD",
+          "A NEGOTIATION"
+        ],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 225,
+      "text": "that she has to stop interfering. Destiny dictates that Aeneas is going to win and he will marry the Italian princess Lavinia.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "LAVINIA"
+        ],
+        "items": [],
+        "image": {
+          "subject": "a young princess in a saffron veil standing silent between armed men",
+          "style": "cutout"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 226,
+      "text": "Juno knows she's beaten, but she demands a price for her surrender. She treats it like a contract negotiation. And her price is the cultural annihilation of the",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "HER PRICE"
+        ],
+        "items": [],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 227,
+      "text": "Trojans. She says, \"Let him be. Let Alban kings She says, \"Let him be. Let Alban kings endure through ages. Troy has fallen. Let her name fall, too.\" She demands that the Italians",
+      "design": {
+        "type": "quote",
+        "kicker": "",
+        "emphasis": [
+          "LET HER NAME FALL"
+        ],
+        "items": [],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 228,
+      "text": "keep their native language, their dress, their name. The Trojan identity must be completely absorbed and erased into the Latin identity.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "ERASED"
+        ],
+        "items": [],
+        "image": {
+          "subject": "a military standard being lowered toward a brazier of flame",
+          "style": "card"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 229,
+      "text": "And Jupiter smiles and agrees. Think about the staggering, profound cruelty of that deal. Aeneas has dragged his traumatized people across the",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "JUPITER SMILES"
+        ],
+        "items": [],
+        "image": {
+          "subject": "two gods clasping hands on a terrace of golden cloud above a battlefield",
+          "style": "card"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 230,
+      "text": "Mediterranean for seven years. They watched their city burn. They lost",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "SEVEN YEARS"
+        ],
+        "items": [],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 231,
+      "text": "their wives, their parents, their They endured supernaturally induced storms,",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "THEY LOST EVERYTHING"
+        ],
+        "items": [],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 232,
+      "text": "plagues, harpies, and brutal, degrading trench warfare in Italy. All for the singular purpose of preserving the Trojan race.",
+      "design": {
+        "type": "list",
+        "kicker": "",
+        "emphasis": [],
+        "items": [
+          "STORMS",
+          "HARPIES",
+          "TRENCH WARFARE"
+        ],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 233,
+      "text": "And at the exact moment of their victory, the gods decide that the Trojan identity will simply be deleted. Rome's origin story is simultaneously the erasure",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "DELETED"
+        ],
+        "items": [],
+        "image": {
+          "subject": "a stonemason chiselling a carved relief flat until the surface is blank",
+          "style": "card"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 234,
+      "text": "of the very people who suffered and died to bring it into existence. The ultimate casualty of the Roman Empire is Aeneas's own past.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "THE ERASURE"
+        ],
+        "items": [],
+        "image": {
+          "subject": "an empty plinth where a statue has been removed, a dust outline left behind",
+          "style": "cutout"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 235,
+      "text": "His suffering was merely a tool to fertilize Italian soil. Which brings us finally",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "FERTILIZER"
+        ],
+        "items": [],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 236,
+      "text": "to the last 12 lines of the epic, the climax of book 12.",
+      "design": {
+        "type": "statement",
+        "kicker": "THE LAST 12 LINES",
+        "emphasis": [
+          "THE LAST 12 LINES"
+        ],
+        "items": [],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 237,
+      "text": "Aeneas and Turnus finally meet in single combat. It is not a fair fight. Jupiter tips the scales. He sends a horrifying demon of fury down to the battlefield.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "NOT A FAIR FIGHT"
+        ],
+        "items": [],
+        "image": {
+          "subject": "two armored champions circling on churned ground while the armies watch",
+          "style": "card"
+        },
+        "compare": {
+          "left": {
+            "label": "AENEAS",
+            "subject": "a weathered Trojan warrior in dented bronze scale armor with a lion skin across his shoulders"
+          },
+          "right": {
+            "label": "TURNUS",
+            "subject": "a powerful young Italian warrior in a horsehair-crested bronze helmet with a gold-studded sword belt"
+          }
+        }
+      }
+    },
+    {
+      "i": 238,
+      "text": "It takes the shape of a bird and literally flaps in Turnus' face, paralyzing him with supernatural dread. Aeneas throws his spear and strikes Turnus down.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "A DEMON OF FURY"
+        ],
+        "items": [],
+        "image": {
+          "subject": "a dark bird beating its wings in a warrior's face, dust rising",
+          "style": "card"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 239,
+      "text": "Turnus is severely wounded, forced to his knees in the dirt. Turnus raises his hands in supplication. He yields completely and he doesn't just beg for his life.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "ON HIS KNEES"
+        ],
+        "items": [],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 240,
+      "text": "He deploys the most powerful psychological weapon possible. He invokes Aeneas's core vulnerability. He says, \"I have a father, Daunus, just as you had,",
+      "design": {
+        "type": "quote",
+        "kicker": "",
+        "emphasis": [
+          "I HAVE A FATHER"
+        ],
+        "items": [],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 241,
+      "text": "Anchises. Take pity on his old age.\" He surrenders his claim to the princess. He says, \"Lavinia is your wife. Don't press your hatred further.\"",
+      "design": {
+        "type": "quote",
+        "kicker": "",
+        "emphasis": [
+          "LAVINIA IS YOURS"
+        ],
+        "items": [],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 242,
+      "text": "He hits the pietas button. He appeals to the sacred bond between fathers and And for a agonizingly tense second, it works.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "THE PIETAS BUTTON"
+        ],
+        "items": [],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 243,
+      "text": "Virgil writes that Aeneas hesitates. He rolls his eyes, taking in the scene, holding back his sword arm. He is swayed.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "HE HESITATES"
+        ],
+        "items": [],
+        "image": {
+          "subject": "a raised sword arm held back, the wielder's eyes moving, dust in the air",
+          "style": "card"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 244,
+      "text": "This is the moment. The rational, clement Roman leader, the one and clement Roman leader, the one Anchises explicitly prophesied in the underworld would spare the conquered, is",
+      "design": {
+        "type": "list",
+        "kicker": "",
+        "emphasis": [],
+        "items": [
+          "SPARE THE CONQUERED",
+          "HE IS SWAYED",
+          "THE MOMENT HOLDS"
+        ],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 245,
+      "text": "about to spare his enemy. The coping mechanism, the humanity, the civilizing force of Rome is trying to reassert itself. But then Aeneas looks down and he sees",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "ABOUT TO SPARE HIM"
+        ],
+        "items": [],
+        "image": {
+          "subject": "a warrior standing over a kneeling man with his sword lowered slightly",
+          "style": "card"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 246,
+      "text": "what Turnus is wearing strapped across his shoulder. The sword belt of Pallas. The trophy Turnus took from the boy Aeneas was sworn to protect.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "THE TROPHY",
+        "emphasis": [
+          "THE SWORD BELT"
+        ],
+        "items": [],
+        "image": {
+          "subject": "a wide gold-studded sword belt strapped across an enemy's shoulder, catching the light",
+          "style": "cutout"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 247,
+      "text": "The gold studs catch the and the text says Aeneas is blazing with fury and terrible in his anger. He screams that it is not him striking the blow, but Pallas exacting revenge,",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "BLAZING"
+        ],
+        "items": [],
+        "image": {
+          "subject": "a man's face contorting into fury in low red light",
+          "style": "cutout"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 248,
+      "text": "and he buries his sword deep into Turnus' Turnus' limbs go slack",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "HE BURIES IT"
+        ],
+        "items": [],
+        "image": {
+          "subject": "a bronze sword blade lying across churned dust at dusk",
+          "style": "card"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 249,
+      "text": "with cold, and his soul flees indignantly down to the shades below.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "THE SHADES BELOW"
+        ],
+        "items": [],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 250,
+      "text": "And that is it. That is the final line of the poem. There is no funeral. There is no founding of a city. There is no wedding.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "NO FUNERAL"
+        ],
+        "items": [],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 251,
+      "text": "There is no glorious transition to the reign of Augustus. The epic built to celebrate the Roman order ends on a catastrophic failure of that very order.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "CATASTROPHIC FAILURE"
+        ],
+        "items": [],
+        "image": {
+          "subject": "an empty battlefield at dusk with two figures, one standing, one down",
+          "style": "card"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 252,
+      "text": "And Aeneas does not spare the conquered. He yields entirely to trauma and rage. The hero butchers a man begging on his knees and the screen",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "CUTS TO BLACK"
+        ],
+        "items": [],
+        "image": {
+          "subject": "a dark empty plain with the last light going, nothing moving",
+          "style": "card"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 253,
+      "text": "cuts to black. Now, we have to pause here. We have laid out an incredibly bleak reading of the out an incredibly bleak reading of the Aeneid what scholars often refer to as the pessimistic or",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "COUNTERPOINT",
+        "emphasis": [
+          "THE OTHER SIDE"
+        ],
+        "items": [],
+        "image": {
+          "subject": "a worn scholarly volume open at a densely annotated page",
+          "style": "card"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 254,
+      "text": "Harvard school reading. Right, we have to take an honest look at the other side because for nearly 2,000 years, millions of people read this poem as a straightforward",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "2,000 YEARS"
+        ],
+        "items": [],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 255,
+      "text": "majestic celebration of Roman patriotism. We cannot ignore the fact that Virgil actively sought and accepted patronage from Augustus.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "PATRONAGE"
+        ],
+        "items": [],
+        "image": {
+          "subject": "a poet standing beside an emperor in a marble hall, a scroll held between them",
+          "style": "card"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 256,
+      "text": "He operated within the emperor's inner circle. Exactly. And much of the text,",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "THE INNER CIRCLE"
+        ],
+        "items": [],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 257,
+      "text": "The Shield of Aeneas, the underworld parade of souls, is undisguised, brilliant",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "PROPAGANDA"
+        ],
+        "items": [],
+        "image": {
+          "subject": "a gleaming bronze relief lit theatrically from below",
+          "style": "card"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 258,
+      "text": "propaganda. Many classicists argue that projecting this modern anti-war trauma-informed lens onto a first century Roman poet",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "A MODERN LENS"
+        ],
+        "items": [],
+        "image": {
+          "subject": "a scholarly page annotated in the margin under lamplight",
+          "style": "card"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 259,
+      "text": "is an exercise in anachronistic presentism. We can't turn Virgil into a 21st century No, we can't.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "PRESENTISM"
+        ],
+        "items": [],
+        "image": {
+          "subject": "a marble bust facing a modern reading lamp in a dark room",
+          "style": "card"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 260,
+      "text": "To a Roman audience, killing a suppliant who was wearing the stripped spoils of your murdered ward wasn't necessarily a moral failure.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "A SUPPLIANT"
+        ],
+        "items": [],
+        "image": {
+          "subject": "a kneeling wounded warrior with his hands raised, seen from above",
+          "style": "card"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 261,
+      "text": "It was justifiable, necessary vengeance. In the Roman context, Turnus broke solemn treaties, started a horrific, unnecessary war,",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "BROKEN TREATIES"
+        ],
+        "items": [],
+        "image": {
+          "subject": "a snapped spear and a torn standard lying across a stone altar",
+          "style": "card"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 262,
+      "text": "and killed a youth. Sparing him might have been viewed by Roman readers not as clemency, but as weak or politically dangerous.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "WEAK OR DANGEROUS"
+        ],
+        "items": [],
+        "image": {
+          "subject": "a Roman general facing a silent ranked crowd",
+          "style": "card"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 263,
+      "text": "Furthermore, there is a massive historical caveat to the abrupt ending. We know for a fact that Virgil died of a fever in 19 BC before he could finish revising the poem.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "19 BC"
+        ],
+        "items": [],
+        "image": {
+          "subject": "a feverish man lying in a shuttered Roman room, a scroll case beside the bed",
+          "style": "card"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 264,
+      "text": "There are half-finish lines scattered throughout the text. So, a very valid argument is that the brutal ending isn't a deliberate subversive philosophical statement.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "HALF-FINISHED LINES"
+        ],
+        "items": [],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 265,
+      "text": "It's just a historical Maybe if he had lived another 3 years, he would have written a book 13 with a lovely wedding, a peace treaty, and the actual founding of",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "A BOOK 13"
+        ],
+        "items": [],
+        "image": {
+          "subject": "an unfinished manuscript scroll trailing off the edge of a desk",
+          "style": "cutout"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 266,
+      "text": "the city. It is a completely fair criticism. The Pax Romana was built on the bones of the conquered and the Romans were largely unapologetic about",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "PAX ROMANA"
+        ],
+        "items": [],
+        "image": {
+          "subject": "a Roman road cutting across a conquered landscape, empty",
+          "style": "card"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 267,
+      "text": "that. Virgil lived through a century of horrific civil war. He intimately understood that sometimes brutal force was the only mechanism to establish But",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "CIVIL WAR"
+        ],
+        "items": [],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 268,
+      "text": "even if we accept that vengeance was culturally acceptable to a Roman reader, we have to look at how Virgil writes it.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "HOW HE WRITES IT"
+        ],
+        "items": [],
+        "image": {
+          "subject": "a stylus pressed into wax, the hand hesitating",
+          "style": "cutout"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 269,
+      "text": "He doesn't write it as a triumphant fist-pumping victory. He writes the hesitation. He writes the sudden uncontrollable flash of rage.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "THE HESITATION"
+        ],
+        "items": [],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 270,
+      "text": "He ends on the indignity of the fleeing soul. Even if it is justified, it is not triumphant. It is tragic.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "NOT TRIUMPHANT"
+        ],
+        "items": [],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 271,
+      "text": "It leaves a terrible metallic taste in the mouth. Which brings us to the ultimate payoff, the historical context that reframes everything we've talked about today.",
+      "design": {
+        "type": "statement",
+        "kicker": "THE PAYOFF",
+        "emphasis": [
+          "A METALLIC TASTE"
+        ],
+        "items": [],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 272,
+      "text": "We mentioned that Virgil died before finishing the poem. He caught a fever in Greece and died in the port city of Brundisium.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "BRUNDISIUM",
+        "emphasis": [
+          "BRUNDISIUM"
+        ],
+        "items": [],
+        "image": {
+          "subject": "a Roman port town at dusk, moored ships, shuttered windows",
+          "style": "card"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 273,
+      "text": "But what were his dying wishes regarding this manuscript? On his deathbed, suffering from fever, Virgil asked for his manuscript of the Aeneid.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "BURN IT"
+        ],
+        "items": [],
+        "image": {
+          "subject": "a dying man reaching from a bed toward a scroll case",
+          "style": "card"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 274,
+      "text": "He wanted to burn it. He explicitly ordered his literary executives to destroy the poem. He had spent 11 years of his life agonizing over it.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "ELEVEN YEARS"
+        ],
+        "items": [],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 275,
+      "text": "It was his unquestioned masterpiece, and he wanted it in ashes. Why was it simply the perfectionism of an artist because it lacked",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "IN ASHES"
+        ],
+        "items": [],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 276,
+      "text": "final polish? Or did he realize at the very end of his life what he had actually created? Did he realize that he had built a monument not to the",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "DID HE REALIZE?"
+        ],
+        "items": [],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 277,
+      "text": "glory of Augustus but to the crushing inescapable tragedy of empire? We will never know for sure because Emperor Augustus intervened.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "A MONUMENT"
+        ],
+        "items": [],
+        "image": {
+          "subject": "a single rolled manuscript lit on a dark table",
+          "style": "cutout"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 278,
+      "text": "Augustus overruled the dying wishes of his greatest poet. He ordered the executives to ignore Virgil's will and published the Aeneid exactly as it was.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "OVERRULED"
+        ],
+        "items": [],
+        "image": {
+          "subject": "an emperor's hand closing over a scroll, refusing it to a reaching hand",
+          "style": "card"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 279,
+      "text": "Think about the profound unbearable irony of that. Rome's greatest literary monument, the foundational text of its culture, exists today only because",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "THE IRONY"
+        ],
+        "items": [],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 280,
+      "text": "the state refused a man's final desperate wish about the work of his own life. The state demanded the product regardless of the individual's desires, which",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "REFUSED HIS WISH"
+        ],
+        "items": [],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 281,
+      "text": "is precisely the exact subject of the poem itself. When we look back at Aeneas faking hope for his crew while sick with massive cares, losing his wife in the",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "THE SAME MACHINE"
+        ],
+        "items": [],
+        "image": {
+          "subject": "a poet and an armored warrior standing back to back in low light",
+          "style": "card"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 282,
+      "text": "smoke of a burning city, abandoning the woman he loves against his will because a god called him a Exiting the vision of his own future through the gate of false dreams,",
+      "design": {
+        "type": "list",
+        "kicker": "",
+        "emphasis": [],
+        "items": [
+          "A FAKED FACE",
+          "A WIFE LOST",
+          "A QUEEN ABANDONED"
+        ],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 283,
+      "text": "and shouldering a shield covered in a history he cannot comprehend. We are looking at a mirror of the poet's own The machine of destiny grinds on,",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "THE FUEL"
+        ],
+        "items": [],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 284,
+      "text": "and the individual is just the fuel. So the next time you are presented with a grand narrative of history, the stories of triumphant founders, glorious",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "THE ACTUAL COST"
+        ],
+        "items": [],
+        "image": null,
+        "compare": null
+      }
+    },
+    {
+      "i": 285,
+      "text": "empires, and inevitable destinies, ask yourself, what is the actual cost? Is Aeneas a hero, or is he in the end simply the first casualty",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "THE FIRST CASUALTY"
+        ],
+        "items": [],
+        "image": {
+          "subject": "a lone armored figure seen from behind against a vast empty plain at dusk",
+          "style": "card"
+        },
+        "compare": null
+      }
+    },
+    {
+      "i": 286,
+      "text": "of the Roman Empire? Think about the shields you might be carrying in your own life. The expectations, the histories, the duties handed to you by others.",
+      "design": {
+        "type": "punchline",
+        "kicker": "",
+        "emphasis": [
+          "WHAT ARE YOU CARRYING?"
+        ],
+        "items": [],
+        "image": null,
+        "compare": null
+      }
+    }
+  ],
+  "authoredBy": "claude"
+}

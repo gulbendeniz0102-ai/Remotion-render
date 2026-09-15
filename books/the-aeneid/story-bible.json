@@ -1,0 +1,434 @@
+{
+  "slug": "the-aeneid",
+  "world": {
+    "era": "Bronze-Age Troy and Italy (c. 1180 BC), told from Augustan Rome (29-19 BC)",
+    "approxYear": -19,
+    "setting": "Two worlds, and a shot must never mix them. (1) The poem's world: the burning citadel of Troy, open Mediterranean sea-lanes, the half-built Punic city of Carthage, the misty underworld, and the trench-scarred river plain of Latium — bronze armor, wool and linen, oil lamps, no iron machinery, no stirrups, no domes. (2) The poet's world: lamp-lit Augustan Rome, scroll cases, wax tablets, marble under construction, a fever-bed at Brundisium.",
+    "register": "Documentary-grave and clinical, never heroic-triumphant. The camera watches a man being used up: low light, dust, smoke, salt, exhaustion. When the state's version of events appears (the shield, the parade of souls), it is deliberately gleaming and staged — the contrast IS the argument.",
+    "forbid": [
+      "phone",
+      "codeWindow",
+      "laptopMockup",
+      "rocketLaunch",
+      "funnelMetrics",
+      "dollarExchange",
+      "subway",
+      "car",
+      "alarmClock",
+      "medical",
+      "coffee",
+      "classroom",
+      "office",
+      "workstation",
+      "startupGarage",
+      "serverRoom",
+      "pitchStage",
+      "kitchen",
+      "bedroom",
+      "hospital",
+      "highway",
+      "cafe",
+      "school"
+    ],
+    "imageStyle": "ancient Mediterranean antiquity (Bronze-Age Troy c.1180 BC / Augustan Rome 19 BC): bronze armour, horsehair crests, wool tunics and linen, leather sandals, oil lamps, stone and timber; no medieval plate, no modern clothing or objects"
+  },
+  "cast": {
+    "aeneas": {
+      "name": "Aeneas",
+      "role": "Trojan prince turned reluctant founder; the subject of the case study. Never drawn exulting — he endures, carries, obeys, and finally breaks.",
+      "look": "Weathered Trojan warrior in his late thirties, dark curling hair and a short beard, dented bronze scale cuirass over a dark red wool tunic, a tawny lion skin across his shoulders, exhausted hollow eyes",
+      "variant": {
+        "hairStyle": "short",
+        "beard": "full",
+        "build": "average",
+        "outfit": "armor"
+      },
+      "mentions": 17
+    },
+    "anchises": {
+      "name": "Anchises",
+      "role": "Aeneas's father; carried out of Troy on his back, later the guide in the underworld who delivers Rome's mission statement.",
+      "look": "Frail white-bearded man in his seventies, thin limbs, undyed wool robe, clutching small clay household gods to his chest",
+      "variant": {
+        "hairStyle": "long",
+        "beard": "full",
+        "build": "slight",
+        "outfit": "robe"
+      },
+      "mentions": 12
+    },
+    "creusa": {
+      "name": "Creusa",
+      "role": "Aeneas's wife, lost in the smoke of Troy because he did not look back; returns as a ghost who authorizes his departure.",
+      "look": "Young Trojan woman with dark hair bound in a linen fillet, pale saffron gown, half-lit in smoke, already spectral",
+      "variant": {
+        "hairStyle": "long",
+        "build": "slight",
+        "outfit": "dress"
+      },
+      "mentions": 6
+    },
+    "ascanius": {
+      "name": "Ascanius",
+      "role": "Aeneas's young son, the future the mission is for; the small hand in the right hand.",
+      "look": "Boy of about ten, dark curls, short undyed tunic, leather sandals, stretching to keep up with a stride too long for him",
+      "variant": {
+        "hairStyle": "curly",
+        "build": "slight",
+        "outfit": "casual",
+        "height": 0.6
+      },
+      "mentions": 3
+    },
+    "dido": {
+      "name": "Dido",
+      "role": "Queen of Carthage; given the poem's best rhetoric and realest grief, then destroyed by Aeneas's orders from the gods. Her curse summons Hannibal.",
+      "look": "Regal Phoenician queen in her thirties, black hair coiled with gold, Tyrian purple robe, heavy gold torque, grief held tight in the jaw",
+      "variant": {
+        "hairStyle": "bun",
+        "build": "average",
+        "outfit": "robe"
+      },
+      "mentions": 11
+    },
+    "turnus": {
+      "name": "Turnus",
+      "role": "Champion of the Italians; kills Pallas and wears his sword belt — the object that gets him killed while begging.",
+      "look": "Powerful young Italian warrior, bronze helmet with a horsehair crest, bare muscled arms, a wide gold-studded sword belt strapped across his chest",
+      "variant": {
+        "hairStyle": "short",
+        "beard": "stubble",
+        "build": "heavy",
+        "outfit": "armor"
+      },
+      "mentions": 27
+    },
+    "pallas": {
+      "name": "Pallas",
+      "role": "Evander's teenage son, entrusted to Aeneas as a ward; his death is the fuse that destroys Aeneas's self-control.",
+      "look": "Teenage boy soldier, beardless fine-boned face, light ill-fitting bronze armor, an oversized gold-studded sword belt, far too young for the field",
+      "variant": {
+        "hairStyle": "short",
+        "beard": "none",
+        "build": "slight",
+        "outfit": "armor",
+        "height": 0.85
+      },
+      "mentions": 10
+    },
+    "evander": {
+      "name": "Evander",
+      "role": "Elderly Greek-Italian king on the future site of Rome; hands his only son to Aeneas.",
+      "look": "Elderly king in a plain undyed wool cloak, silver beard, standing among rough thatched huts on a scrubby hillside",
+      "variant": {
+        "hairStyle": "long",
+        "beard": "full",
+        "build": "slight",
+        "outfit": "cloak"
+      },
+      "mentions": 2
+    },
+    "priam": {
+      "name": "Priam",
+      "role": "Last king of Troy, cut down in his own palace on the night of the fall.",
+      "look": "Very old king of Troy, white beard, purple-bordered robe over thin shoulders, lit by burning rafters",
+      "variant": {
+        "hairStyle": "long",
+        "beard": "full",
+        "build": "slight",
+        "outfit": "robe"
+      },
+      "mentions": 1
+    },
+    "juno": {
+      "name": "Juno",
+      "role": "The hostile goddess; ends the war by negotiating the erasure of the Trojan name.",
+      "look": "Imperious goddess in white and gold drapery, a peacock at her side, cold controlled fury, seated in golden cloud",
+      "variant": {
+        "hairStyle": "bun",
+        "build": "average",
+        "outfit": "robe"
+      },
+      "mentions": 3
+    },
+    "jupiter": {
+      "name": "Jupiter",
+      "role": "King of the gods; sets the destiny, signs the deal that deletes Troy.",
+      "look": "Bearded king of the gods on a throne of golden cloud, an eagle beside him, storm light behind",
+      "variant": {
+        "hairStyle": "long",
+        "beard": "full",
+        "build": "heavy",
+        "outfit": "robe"
+      },
+      "mentions": 6
+    },
+    "venus": {
+      "name": "Venus",
+      "role": "Aeneas's divine mother; wounded in the Iliad, later commissions the shield.",
+      "look": "Luminous goddess in pale drapery seen through a haze of light, never fully solid",
+      "variant": {
+        "hairStyle": "long",
+        "build": "slight",
+        "outfit": "dress"
+      },
+      "mentions": 2
+    },
+    "mercury": {
+      "name": "Mercury",
+      "role": "Delivers Jupiter's order to abandon Dido — in broad daylight, so it cannot be dismissed as a dream.",
+      "look": "Messenger god with winged sandals and caduceus descending in harsh noon light, short traveling cloak",
+      "variant": {
+        "hairStyle": "short",
+        "build": "slight",
+        "outfit": "cloak"
+      },
+      "mentions": 5
+    },
+    "vulcan": {
+      "name": "Vulcan",
+      "role": "Smith god; forges the shield that shows a future its bearer cannot read.",
+      "look": "Soot-blackened smith god at a volcanic forge, heavy arms, hammer raised, sparks in the dark",
+      "variant": {
+        "hairStyle": "messy",
+        "beard": "full",
+        "build": "heavy",
+        "outfit": "apron"
+      },
+      "mentions": 4
+    },
+    "augustus": {
+      "name": "Augustus",
+      "role": "The patron; the golden climax of the underworld parade and of the shield — and the man who overruled Virgil's will.",
+      "look": "Young Roman emperor, clean-shaven, laurel wreath, white toga with a purple border, twin flames at his brow in the shield relief",
+      "variant": {
+        "hairStyle": "short",
+        "beard": "none",
+        "build": "average",
+        "outfit": "robe"
+      },
+      "mentions": 15
+    },
+    "virgil": {
+      "name": "Virgil",
+      "role": "The poet: the other man in the poem being used by the state. Ends feverish at Brundisium asking for the manuscript to be burned.",
+      "look": "Roman poet of about fifty, thin drawn face, plain undyed toga, holding a papyrus scroll and a stylus, lamp-lit",
+      "variant": {
+        "hairStyle": "short",
+        "beard": "stubble",
+        "build": "slight",
+        "outfit": "robe"
+      },
+      "mentions": 35
+    },
+    "lavinia": {
+      "name": "Lavinia",
+      "role": "The Italian princess Aeneas is fated to marry; never consulted, barely speaks.",
+      "look": "Young Italian princess in a saffron veil, eyes lowered, silent at the edge of the frame",
+      "variant": {
+        "hairStyle": "long",
+        "build": "slight",
+        "outfit": "dress"
+      },
+      "mentions": 2
+    },
+    "cleopatra": {
+      "name": "Cleopatra",
+      "role": "The enemy on the shield's Actium relief, shaking a sistrum, backed by monstrous Egyptian gods.",
+      "look": "Egyptian queen on a galley deck, dark linen and heavy gold, shaking a bronze sistrum",
+      "variant": {
+        "hairStyle": "long",
+        "build": "slight",
+        "outfit": "dress"
+      },
+      "mentions": 2
+    },
+    "hannibal": {
+      "name": "Hannibal",
+      "role": "The avenger Dido's curse conjures — Rome's near-extinction, two centuries later.",
+      "look": "Carthaginian general in a scarlet cloak leading war elephants through a snowbound alpine pass",
+      "variant": {
+        "hairStyle": "short",
+        "beard": "stubble",
+        "build": "average",
+        "outfit": "cloak"
+      },
+      "mentions": 1
+    },
+    "nisus": {
+      "name": "Nisus",
+      "role": "Half of the pair of young Trojan lovers killed on a night raid.",
+      "look": "Lean young Trojan soldier, dark stubble, light leather armor, blood-slick hands in the dark",
+      "variant": {
+        "hairStyle": "short",
+        "beard": "stubble",
+        "build": "slight",
+        "outfit": "armor"
+      },
+      "mentions": 1
+    },
+    "euryalus": {
+      "name": "Euryalus",
+      "role": "The younger of the pair; his death is the poem's most tender writing.",
+      "look": "Beardless boy soldier with fair curls, oversized helmet, light leather armor",
+      "variant": {
+        "hairStyle": "curly",
+        "beard": "none",
+        "build": "slight",
+        "outfit": "armor",
+        "height": 0.9
+      },
+      "mentions": 1
+    },
+    "lausus": {
+      "name": "Lausus",
+      "role": "Young Italian prince killed shielding his tyrant father.",
+      "look": "Young Italian prince stepping in front of an older armored man, small round shield raised",
+      "variant": {
+        "hairStyle": "short",
+        "beard": "none",
+        "build": "slight",
+        "outfit": "armor",
+        "height": 0.9
+      },
+      "mentions": 1
+    }
+  },
+  "places": {
+    "troyBurning": {
+      "set": "street",
+      "look": "Narrow Bronze-Age citadel streets at night choked with smoke and corpses, roof beams on fire, bronze glinting in the dark",
+      "mentions": 20
+    },
+    "shore": {
+      "set": "shore",
+      "look": "Storm-wrecked Libyan beach at grey dawn, splintered ship timbers, soaked exhausted men, salt haze",
+      "mentions": 12
+    },
+    "carthage": {
+      "set": "court",
+      "look": "A half-built Punic city: scaffolded stone walls, masons at work, Tyrian-purple awnings, cranes against a hot blue sky",
+      "mentions": 11
+    },
+    "underworld": {
+      "set": "forest",
+      "look": "Misty grey poplar wood and a slow black river, drifting souls, no sun, ash-coloured light",
+      "mentions": 9
+    },
+    "elysium": {
+      "set": "horizon",
+      "look": "An expansive misty green plain with its own sun and stars, distant wrestlers and singers, a valley river",
+      "mentions": 4
+    },
+    "olympus": {
+      "set": "sky",
+      "look": "A terrace of golden cloud far above a battlefield, two thrones, storm light",
+      "mentions": 6
+    },
+    "latium": {
+      "set": "horizon",
+      "look": "Trench-scarred Latin river plain, earthworks and ditch-lines, dust, Bronze-Age siege camps",
+      "mentions": 8
+    },
+    "virgilStudy": {
+      "set": "library",
+      "look": "Lamp-lit Augustan Roman room, pigeonholed scroll cases, wax tablets, a single oil lamp, 19 BC",
+      "mentions": 15
+    },
+    "actium": {
+      "set": "horizon",
+      "look": "The naval battle rendered as relief work on beaten bronze: war galleys, Apollo's drawn bow, a sistrum, barking Anubis",
+      "mentions": 5
+    }
+  },
+  "objects": [
+    {
+      "concept": "shield",
+      "mentions": 16,
+      "why": "The shield of Aeneas: the state's version of history, embossed and gleaming, carried by a man who is 'ignorant of the events'. The book's central image and the video's cold-open callback."
+    },
+    {
+      "concept": "trophy",
+      "mentions": 9,
+      "why": "Pallas's gold-studded sword belt. Turnus straps it on as a trophy; the glint of it on his shoulder is what ends the poem. Show it as an object before it is a plot point."
+    },
+    {
+      "concept": "fire",
+      "mentions": 13,
+      "why": "Troy burning, Dido's pyre, Pallas's funeral pyre, and Virgil's own request to burn the manuscript. The same fire runs through every act."
+    },
+    {
+      "concept": "family",
+      "mentions": 22,
+      "why": "Father on the back, son by the hand, wife lost behind: the load-bearing image of the whole epic and of pietas itself."
+    },
+    {
+      "concept": "grave",
+      "mentions": 15,
+      "why": "The bill: Creusa, Dido, Nisus and Euryalus, Lausus, Pallas, the eight sacrificed youths, Turnus. The casualty report the state did not commission."
+    },
+    {
+      "concept": "door",
+      "mentions": 6,
+      "why": "The twin gates of sleep — horn for true visions, ivory for false dreams. Aeneas leaves the prophecy of Rome through the ivory one. Needs a real two-door image, not an abstract portal."
+    },
+    {
+      "concept": "mask",
+      "mentions": 8,
+      "why": "'He simulates hope on his features' — pietas drawn as a face held in place over panic. The visual thesis of the episode."
+    },
+    {
+      "concept": "city",
+      "mentions": 16,
+      "why": "Troy burned, Carthage half-built and abandoned, Rome not yet begun: the city is always either ending or unfinished, never enjoyed."
+    },
+    {
+      "concept": "sword",
+      "mentions": 8,
+      "why": "Dido falls on Aeneas's sword; Aeneas buries his in Turnus's chest on the last line. The same blade closes both women's and men's stories."
+    },
+    {
+      "concept": "book",
+      "mentions": 12,
+      "why": "The manuscript itself — 11 years of work, ordered burned on the poet's deathbed and published anyway. The frame of the whole episode."
+    },
+    {
+      "concept": "war",
+      "mentions": 29,
+      "why": "Not glorious conquest: trench warfare, night raids, human sacrifice. Draw it as a slaughterhouse, never as a parade."
+    },
+    {
+      "concept": "chains",
+      "mentions": 4,
+      "why": "'I do not chase Italy of my own free will' — non-consent, the hostage of the gods. Use sparingly and never literally over a real person's wrists."
+    }
+  ],
+  "spine": [
+    {
+      "act": "setup",
+      "fromFrame": 2,
+      "claim": "Rome commissioned a founding myth and got a casualty report: Aeneas arrives as Homer's second-tier survivor, and Virgil turns that weakness into endurance whose cost he then documents."
+    },
+    {
+      "act": "development",
+      "fromFrame": 13001,
+      "claim": "The mission takes the man apart piece by piece: Creusa lost because he could not look back, Dido destroyed by an order he did not choose, and his own defense is a confession of non-consent."
+    },
+    {
+      "act": "turn",
+      "fromFrame": 25555,
+      "claim": "He goes to the underworld for a meaning he can hold, is handed the empire's mission statement — and Virgil walks him back out through the gate reserved for false dreams."
+    },
+    {
+      "act": "consequence",
+      "fromFrame": 39715,
+      "claim": "He carries a history he is not permitted to understand, and when Pallas dies the coping mechanism shatters into human sacrifice and the killing of a suppliant."
+    },
+    {
+      "act": "close",
+      "fromFrame": 53021,
+      "claim": "The poem stops on that failure, and the poet who asked for it to be burned was overruled by the state — the same machine, working on the man who wrote it."
+    }
+  ],
+  "authored": true
+}
